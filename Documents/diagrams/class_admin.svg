@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="585px" height="705px"
+ viewBox="0.00 0.00 439.00 529.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(18 511.2)">
+<title>adm</title>
+<polygon fill="white" stroke="none" points="-18,18 -18,-511.2 421.41,-511.2 421.41,18 -18,18"/>
+<g id="node1" class="node">
+<title>Auth</title>
+<polygon fill="white" stroke="none" points="8,-203.6 8,-316 140.43,-316 140.43,-203.6 8,-203.6"/>
+<polygon fill="none" stroke="#1f4e78" points="8,-203.6 8,-316 140.43,-316 140.43,-203.6 8,-203.6"/>
+<polygon fill="#dce9f5" stroke="none" points="9,-290.6 9,-315 139.43,-315 139.43,-290.6 9,-290.6"/>
+<polygon fill="none" stroke="#1f4e78" points="9,-290.6 9,-315 139.43,-315 139.43,-290.6 9,-290.6"/>
+<text xml:space="preserve" text-anchor="start" x="39.2" y="-300.2" font-family="Liberation Sans" font-weight="bold" font-size="12.00">AuthService</text>
+<polygon fill="none" stroke="#1f4e78" points="9,-254.2 9,-290.6 139.43,-290.6 139.43,-254.2 9,-254.2"/>
+<text xml:space="preserve" text-anchor="start" x="14" y="-274.6" font-family="Liberation Sans" font-size="11.00">&#45; uid: String?</text>
+<text xml:space="preserve" text-anchor="start" x="14" y="-261.4" font-family="Liberation Sans" font-size="11.00">&#45; lockedUntil: DateTime?</text>
+<polygon fill="none" stroke="#1f4e78" points="9,-204.6 9,-254.2 139.43,-254.2 139.43,-204.6 9,-204.6"/>
+<text xml:space="preserve" text-anchor="start" x="14" y="-238.2" font-family="Liberation Sans" font-size="11.00">+ sendCode(phone)</text>
+<text xml:space="preserve" text-anchor="start" x="14" y="-225" font-family="Liberation Sans" font-size="11.00">+ verify(code)</text>
+<text xml:space="preserve" text-anchor="start" x="14" y="-211.8" font-family="Liberation Sans" font-size="11.00">+ signOut()</text>
+</g>
+<g id="node2" class="node">
+<title>Sess</title>
+<polygon fill="white" stroke="none" points="20.23,-10.6 20.23,-109.8 128.2,-109.8 128.2,-10.6 20.23,-10.6"/>
+<polygon fill="none" stroke="#1f4e78" points="20.23,-10.6 20.23,-109.8 128.2,-109.8 128.2,-10.6 20.23,-10.6"/>
+<polygon fill="#dce9f5" stroke="none" points="21.23,-84.4 21.23,-108.8 127.2,-108.8 127.2,-84.4 21.23,-84.4"/>
+<polygon fill="none" stroke="#1f4e78" points="21.23,-84.4 21.23,-108.8 127.2,-108.8 127.2,-84.4 21.23,-84.4"/>
+<text xml:space="preserve" text-anchor="start" x="26.53" y="-94" font-family="Liberation Sans" font-weight="bold" font-size="12.00">SessionManager</text>
+<polygon fill="none" stroke="#1f4e78" points="21.23,-48 21.23,-84.4 127.2,-84.4 127.2,-48 21.23,-48"/>
+<text xml:space="preserve" text-anchor="start" x="26.23" y="-68.4" font-family="Liberation Sans" font-size="11.00">&#45; token: String</text>
+<text xml:space="preserve" text-anchor="start" x="26.23" y="-55.2" font-family="Liberation Sans" font-size="11.00">&#45; expires: DateTime</text>
+<polygon fill="none" stroke="#1f4e78" points="21.23,-11.6 21.23,-48 127.2,-48 127.2,-11.6 21.23,-11.6"/>
+<text xml:space="preserve" text-anchor="start" x="26.23" y="-32" font-family="Liberation Sans" font-size="11.00">+ renew()</text>
+<text xml:space="preserve" text-anchor="start" x="26.23" y="-18.8" font-family="Liberation Sans" font-size="11.00">+ revoke()</text>
+</g>
+<g id="edge1" class="edge">
+<title>Auth&#45;&gt;Sess</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M74.22,-187.62C74.22,-163.16 74.22,-136.23 74.22,-113.54"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="74.22,-187.81 77.82,-193.21 74.22,-198.61 70.62,-193.21 74.22,-187.81"/>
+<text xml:space="preserve" text-anchor="middle" x="95.31" y="-156.7" font-family="Liberation Sans" font-size="11.00"> &#160;opens &#160;</text>
+<text xml:space="preserve" text-anchor="middle" x="81.82" y="-126.55" font-family="Liberation Sans" font-size="11.00">0..1</text>
+<text xml:space="preserve" text-anchor="middle" x="66.61" y="-180.17" font-family="Liberation Sans" font-size="11.00">1</text>
+</g>
+<g id="node3" class="node">
+<title>Dis</title>
+<polygon fill="white" stroke="none" points="277.02,-403.2 277.02,-489.2 395.41,-489.2 395.41,-403.2 277.02,-403.2"/>
+<polygon fill="none" stroke="#1f4e78" points="277.02,-403.2 277.02,-489.2 395.41,-489.2 395.41,-403.2 277.02,-403.2"/>
+<polygon fill="#dce9f5" stroke="none" points="278.02,-463.8 278.02,-488.2 394.41,-488.2 394.41,-463.8 278.02,-463.8"/>
+<polygon fill="none" stroke="#1f4e78" points="278.02,-463.8 278.02,-488.2 394.41,-488.2 394.41,-463.8 278.02,-463.8"/>
+<text xml:space="preserve" text-anchor="start" x="299.54" y="-473.4" font-family="Liberation Sans" font-weight="bold" font-size="12.00">AppDisguise</text>
+<polygon fill="none" stroke="#1f4e78" points="278.02,-440.6 278.02,-463.8 394.41,-463.8 394.41,-440.6 278.02,-440.6"/>
+<text xml:space="preserve" text-anchor="start" x="283.02" y="-447.8" font-family="Liberation Sans" font-size="11.00">&#45; current: Appearance</text>
+<polygon fill="none" stroke="#1f4e78" points="278.02,-404.2 278.02,-440.6 394.41,-440.6 394.41,-404.2 278.02,-404.2"/>
+<text xml:space="preserve" text-anchor="start" x="283.02" y="-424.6" font-family="Liberation Sans" font-size="11.00">+ apply(a)</text>
+<text xml:space="preserve" text-anchor="start" x="283.02" y="-411.4" font-family="Liberation Sans" font-size="11.00">+ restore()</text>
+</g>
+<g id="node4" class="node">
+<title>Admin</title>
+<polygon fill="white" stroke="none" points="111.63,-403.2 111.63,-489.2 224.8,-489.2 224.8,-403.2 111.63,-403.2"/>
+<polygon fill="none" stroke="#1f4e78" points="111.63,-403.2 111.63,-489.2 224.8,-489.2 224.8,-403.2 111.63,-403.2"/>
+<polygon fill="#dce9f5" stroke="none" points="112.63,-463.8 112.63,-488.2 223.8,-488.2 223.8,-463.8 112.63,-463.8"/>
+<polygon fill="none" stroke="#1f4e78" points="112.63,-463.8 112.63,-488.2 223.8,-488.2 223.8,-463.8 112.63,-463.8"/>
+<text xml:space="preserve" text-anchor="start" x="136.21" y="-473.4" font-family="Liberation Sans" font-weight="bold" font-size="12.00">AdminUser</text>
+<polygon fill="none" stroke="#1f4e78" points="112.63,-427.4 112.63,-463.8 223.8,-463.8 223.8,-427.4 112.63,-427.4"/>
+<text xml:space="preserve" text-anchor="start" x="117.63" y="-447.8" font-family="Liberation Sans" font-size="11.00">&#45; uid: String</text>
+<text xml:space="preserve" text-anchor="start" x="117.63" y="-434.6" font-family="Liberation Sans" font-size="11.00">&#45; role = administrator</text>
+<polygon fill="none" stroke="#1f4e78" points="112.63,-404.2 112.63,-427.4 223.8,-427.4 223.8,-404.2 112.63,-404.2"/>
+<text xml:space="preserve" text-anchor="start" x="117.63" y="-411.4" font-family="Liberation Sans" font-size="11.00">+ signIn()</text>
+</g>
+<g id="edge2" class="edge">
+<title>Admin&#45;&gt;Auth</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" stroke-dasharray="5,2" d="M144.98,-399.62C134.13,-378.34 120.99,-352.56 109,-329.03"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="105.01,-321.2 112.7,-327.38 106.46,-323.73 109.23,-329.15 109.09,-329.22 108.96,-329.29 106.2,-323.87 105.49,-331.06 105.01,-321.2"/>
+<text xml:space="preserve" text-anchor="middle" x="150.69" y="-356.3" font-family="Liberation Sans" font-size="11.00"> &#160;«uses» &#160;</text>
+</g>
+<g id="node5" class="node">
+<title>Mod</title>
+<polygon fill="white" stroke="none" points="192.1,-216.8 192.1,-302.8 334.33,-302.8 334.33,-216.8 192.1,-216.8"/>
+<polygon fill="none" stroke="#1f4e78" points="192.1,-216.8 192.1,-302.8 334.33,-302.8 334.33,-216.8 192.1,-216.8"/>
+<polygon fill="#dce9f5" stroke="none" points="193.1,-277.4 193.1,-301.8 333.33,-301.8 333.33,-277.4 193.1,-277.4"/>
+<polygon fill="none" stroke="#1f4e78" points="193.1,-277.4 193.1,-301.8 333.33,-301.8 333.33,-277.4 193.1,-277.4"/>
+<text xml:space="preserve" text-anchor="start" x="212.21" y="-287" font-family="Liberation Sans" font-weight="bold" font-size="12.00">ModerationQueue</text>
+<polygon fill="none" stroke="#1f4e78" points="193.1,-254.2 193.1,-277.4 333.33,-277.4 333.33,-254.2 193.1,-254.2"/>
+<text xml:space="preserve" text-anchor="start" x="198.1" y="-261.4" font-family="Liberation Sans" font-size="11.00">&#45; items: List&lt;FlaggedItem&gt;</text>
+<polygon fill="none" stroke="#1f4e78" points="193.1,-217.8 193.1,-254.2 333.33,-254.2 333.33,-217.8 193.1,-217.8"/>
+<text xml:space="preserve" text-anchor="start" x="198.1" y="-238.2" font-family="Liberation Sans" font-size="11.00">+ decide(item, decision)</text>
+<text xml:space="preserve" text-anchor="start" x="198.1" y="-225" font-family="Liberation Sans" font-size="11.00">+ log(decision)</text>
+</g>
+<g id="edge3" class="edge">
+<title>Admin&#45;&gt;Mod</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M191.7,-399.62C204.77,-374.24 221.14,-342.47 234.92,-315.73"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="238.95,-307.9 238.43,-317.76 237.75,-310.57 234.96,-315.97 234.83,-315.91 234.69,-315.84 237.48,-310.43 231.23,-314.05 238.95,-307.9"/>
+<text xml:space="preserve" text-anchor="middle" x="240.47" y="-356.3" font-family="Liberation Sans" font-size="11.00"> &#160;reviews &#160;</text>
+<text xml:space="preserve" text-anchor="middle" x="238.96" y="-321.18" font-family="Liberation Sans" font-size="11.00">1</text>
+<text xml:space="preserve" text-anchor="middle" x="192.41" y="-378.33" font-family="Liberation Sans" font-size="11.00">1</text>
+</g>
+<g id="node6" class="node">
+<title>Dec</title>
+<polygon fill="white" stroke="none" points="209.53,-4 209.53,-116.4 316.9,-116.4 316.9,-4 209.53,-4"/>
+<polygon fill="none" stroke="#1f4e78" points="209.53,-4 209.53,-116.4 316.9,-116.4 316.9,-4 209.53,-4"/>
+<polygon fill="#dce9f5" stroke="none" points="210.53,-91 210.53,-115.4 315.9,-115.4 315.9,-91 210.53,-91"/>
+<polygon fill="none" stroke="#1f4e78" points="210.53,-91 210.53,-115.4 315.9,-115.4 315.9,-91 210.53,-91"/>
+<text xml:space="preserve" text-anchor="start" x="219.54" y="-100.6" font-family="Liberation Sans" font-weight="bold" font-size="12.00">AdminDecision</text>
+<polygon fill="none" stroke="#1f4e78" points="210.53,-28.2 210.53,-91 315.9,-91 315.9,-28.2 210.53,-28.2"/>
+<text xml:space="preserve" text-anchor="start" x="215.53" y="-75" font-family="Liberation Sans" font-size="11.00">&#45; adminUid: String</text>
+<text xml:space="preserve" text-anchor="start" x="215.53" y="-61.8" font-family="Liberation Sans" font-size="11.00">&#45; target: String</text>
+<text xml:space="preserve" text-anchor="start" x="215.53" y="-48.6" font-family="Liberation Sans" font-size="11.00">&#45; decision: Decision</text>
+<text xml:space="preserve" text-anchor="start" x="215.53" y="-35.4" font-family="Liberation Sans" font-size="11.00">&#45; at: DateTime</text>
+<polygon fill="none" stroke="#1f4e78" points="210.53,-5 210.53,-28.2 315.9,-28.2 315.9,-5 210.53,-5"/>
+<text xml:space="preserve" text-anchor="start" x="215.53" y="-12.2" font-family="Liberation Sans" font-size="11.00"> </text>
+</g>
+<g id="edge4" class="edge">
+<title>Mod&#45;&gt;Dec</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M263.22,-200.9C263.22,-175.53 263.22,-145.79 263.22,-120.29"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="263.22,-201 266.82,-206.4 263.22,-211.8 259.62,-206.4 263.22,-201"/>
+<text xml:space="preserve" text-anchor="middle" x="287.67" y="-156.7" font-family="Liberation Sans" font-size="11.00"> &#160;records &#160;</text>
+<text xml:space="preserve" text-anchor="middle" x="270.82" y="-133.3" font-family="Liberation Sans" font-size="11.00">0..*</text>
+<text xml:space="preserve" text-anchor="middle" x="255.61" y="-193.36" font-family="Liberation Sans" font-size="11.00">1</text>
+</g>
+</g>
+</svg>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="617px" height="841px"
+ viewBox="0.00 0.00 463.00 631.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(18 613)">
+<title>eru</title>
+<polygon fill="white" stroke="none" points="-18,18 -18,-613 445.04,-613 445.04,18 -18,18"/>
+<g id="node1" class="node">
+<title>Acc</title>
+<polygon fill="white" stroke="none" points="179.77,-458 179.77,-595 296.6,-595 296.6,-458 179.77,-458"/>
+<polygon fill="#1f4e78" stroke="#1f4e78" points="179.77,-574.2 179.77,-574.2 296.6,-574.2 296.6,-574.2 179.77,-574.2"/>
+<polygon fill="none" stroke="#1f4e78" points="179.77,-458 179.77,-595 296.6,-595 296.6,-458 179.77,-458"/>
+<polygon fill="#dce9f5" stroke="none" points="180.77,-574.2 180.77,-594 295.6,-594 295.6,-574.2 180.77,-574.2"/>
+<text xml:space="preserve" text-anchor="start" x="215.18" y="-581.65" font-family="Liberation Sans" font-weight="bold" font-size="11.50">Account</text>
+<text xml:space="preserve" text-anchor="start" x="183.77" y="-562.3" font-family="Liberation Sans" font-weight="bold" font-size="11.00">PK </text>
+<text xml:space="preserve" text-anchor="start" x="202.11" y="-562.3" font-family="Liberation Sans" font-size="11.00">uid</text>
+<text xml:space="preserve" text-anchor="start" x="183.77" y="-541" font-family="Liberation Sans" font-size="11.00"> &#160;&#160;&#160;&#160;&#160;phone (unique)</text>
+<text xml:space="preserve" text-anchor="start" x="183.77" y="-521.8" font-family="Liberation Sans" font-size="11.00"> &#160;&#160;&#160;&#160;&#160;name</text>
+<text xml:space="preserve" text-anchor="start" x="183.77" y="-502.6" font-family="Liberation Sans" font-size="11.00"> &#160;&#160;&#160;&#160;&#160;messageTemplate</text>
+<text xml:space="preserve" text-anchor="start" x="183.77" y="-483.4" font-family="Liberation Sans" font-size="11.00"> &#160;&#160;&#160;&#160;&#160;defaultMode</text>
+<text xml:space="preserve" text-anchor="start" x="183.77" y="-464.2" font-family="Liberation Sans" font-size="11.00"> &#160;&#160;&#160;&#160;&#160;createdAt</text>
+</g>
+<g id="node2" class="node">
+<title>Tr</title>
+<polygon fill="white" stroke="none" points="0,-229 0,-366 70.37,-366 70.37,-229 0,-229"/>
+<polygon fill="#1f4e78" stroke="#1f4e78" points="0,-345.2 0,-345.2 70.37,-345.2 70.37,-345.2 0,-345.2"/>
+<polygon fill="none" stroke="#1f4e78" points="0,-229 0,-366 70.37,-366 70.37,-229 0,-229"/>
+<polygon fill="#dce9f5" stroke="none" points="1,-345.2 1,-365 69.37,-365 69.37,-345.2 1,-345.2"/>
+<text xml:space="preserve" text-anchor="start" x="14.41" y="-352.65" font-family="Liberation Sans" font-weight="bold" font-size="11.50">Trustee</text>
+<text xml:space="preserve" text-anchor="start" x="4" y="-333.3" font-family="Liberation Sans" font-weight="bold" font-size="11.00">PK </text>
+<text xml:space="preserve" text-anchor="start" x="22.34" y="-333.3" font-family="Liberation Sans" font-size="11.00">id</text>
+<text xml:space="preserve" text-anchor="start" x="4" y="-314.1" font-family="Liberation Sans" font-style="italic" font-size="11.00">FK </text>
+<text xml:space="preserve" text-anchor="start" x="21.11" y="-314.1" font-family="Liberation Sans" font-size="11.00">uid</text>
+<text xml:space="preserve" text-anchor="start" x="4" y="-292.8" font-family="Liberation Sans" font-size="11.00"> &#160;&#160;&#160;&#160;&#160;name</text>
+<text xml:space="preserve" text-anchor="start" x="4" y="-273.6" font-family="Liberation Sans" font-size="11.00"> &#160;&#160;&#160;&#160;&#160;phone</text>
+<text xml:space="preserve" text-anchor="start" x="4" y="-254.4" font-family="Liberation Sans" font-size="11.00"> &#160;&#160;&#160;&#160;&#160;email</text>
+<text xml:space="preserve" text-anchor="start" x="4" y="-235.2" font-family="Liberation Sans" font-size="11.00"> &#160;&#160;&#160;&#160;&#160;channels</text>
+</g>
+<g id="edge1" class="edge">
+<title>Acc&#45;&gt;Tr</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M173.3,-455.83C147.77,-428.1 118.35,-395.76 92.18,-366 89.15,-362.55 86.05,-358.98 82.93,-355.37"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="183.04,-459.02 175.69,-465.8 174.34,-464.33 181.69,-457.55 183.04,-459.02"/>
+<polyline fill="none" stroke="#1f3864" stroke-width="1.3" points="180.05,-463.15 176.66,-459.47"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="179.65,-455.35 172.3,-462.13 170.95,-460.66 178.3,-453.88 179.65,-455.35"/>
+<polyline fill="none" stroke="#1f3864" stroke-width="1.3" points="176.66,-459.47 173.27,-455.8"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="76.98,-348.42 73.9,-337.9 73.45,-344.29 70.76,-341.15 70.76,-341.15 70.76,-341.15 73.45,-344.29 67.06,-343.75 76.98,-348.42"/>
+<ellipse fill="none" stroke="#1f3864" stroke-width="1.3" cx="81.03" cy="-353.16" rx="4" ry="4"/>
+<text xml:space="preserve" text-anchor="middle" x="149.37" y="-409" font-family="Liberation Sans" font-size="10.00"> &#160;has &#160;</text>
+</g>
+<g id="node3" class="node">
+<title>Circ</title>
+<polygon fill="white" stroke="none" points="113.86,-257.8 113.86,-337.2 188.5,-337.2 188.5,-257.8 113.86,-257.8"/>
+<polygon fill="#1f4e78" stroke="#1f4e78" points="113.86,-316.4 113.86,-316.4 188.5,-316.4 188.5,-316.4 113.86,-316.4"/>
+<polygon fill="none" stroke="#1f4e78" points="113.86,-257.8 113.86,-337.2 188.5,-337.2 188.5,-257.8 113.86,-257.8"/>
+<polygon fill="#dce9f5" stroke="none" points="114.86,-316.4 114.86,-336.2 187.5,-336.2 187.5,-316.4 114.86,-316.4"/>
+<text xml:space="preserve" text-anchor="start" x="135.2" y="-323.85" font-family="Liberation Sans" font-weight="bold" font-size="11.50">Circle</text>
+<text xml:space="preserve" text-anchor="start" x="117.86" y="-304.5" font-family="Liberation Sans" font-weight="bold" font-size="11.00">PK </text>
+<text xml:space="preserve" text-anchor="start" x="136.2" y="-304.5" font-family="Liberation Sans" font-size="11.00">id</text>
+<text xml:space="preserve" text-anchor="start" x="117.86" y="-285.3" font-family="Liberation Sans" font-style="italic" font-size="11.00">FK </text>
+<text xml:space="preserve" text-anchor="start" x="134.98" y="-285.3" font-family="Liberation Sans" font-size="11.00">createdBy</text>
+<text xml:space="preserve" text-anchor="start" x="117.86" y="-264" font-family="Liberation Sans" font-size="11.00"> &#160;&#160;&#160;&#160;&#160;createdAt</text>
+</g>
+<g id="edge2" class="edge">
+<title>Acc&#45;&gt;Circ</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M208.9,-449.08C197.17,-418.5 183.91,-383.88 173.05,-355.55"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="216.63,-455.28 207.29,-458.86 206.57,-457 215.91,-453.42 216.63,-455.28"/>
+<polyline fill="none" stroke="#1f3864" stroke-width="1.3" points="212.32,-458.01 210.53,-453.34"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="214.84,-450.62 205.5,-454.19 204.79,-452.33 214.12,-448.75 214.84,-450.62"/>
+<polyline fill="none" stroke="#1f3864" stroke-width="1.3" points="210.53,-453.34 208.74,-448.67"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="169.7,-346.81 170.32,-335.87 167.76,-341.74 166.28,-337.88 166.28,-337.88 166.28,-337.88 167.76,-341.74 161.92,-339.09 169.7,-346.81"/>
+<ellipse fill="none" stroke="#1f3864" stroke-width="1.3" cx="171.93" cy="-352.63" rx="4" ry="4"/>
+<text xml:space="preserve" text-anchor="middle" x="216.64" y="-409" font-family="Liberation Sans" font-size="10.00"> &#160;creates &#160;</text>
+</g>
+<g id="node4" class="node">
+<title>Mem</title>
+<polygon fill="white" stroke="none" points="199.88,0 199.88,-137 348.49,-137 348.49,0 199.88,0"/>
+<polygon fill="#1f4e78" stroke="#1f4e78" points="199.88,-116.2 199.88,-116.2 348.49,-116.2 348.49,-116.2 199.88,-116.2"/>
+<polygon fill="none" stroke="#1f4e78" points="199.88,0 199.88,-137 348.49,-137 348.49,0 199.88,0"/>
+<polygon fill="#dce9f5" stroke="none" points="200.88,-116.2 200.88,-136 347.49,-136 347.49,-116.2 200.88,-116.2"/>
+<text xml:space="preserve" text-anchor="start" x="240.32" y="-123.65" font-family="Liberation Sans" font-weight="bold" font-size="11.50">Membership</text>
+<text xml:space="preserve" text-anchor="start" x="203.88" y="-104.3" font-family="Liberation Sans" font-weight="bold" font-size="11.00">PK </text>
+<text xml:space="preserve" text-anchor="start" x="222.22" y="-104.3" font-family="Liberation Sans" font-size="11.00">id</text>
+<text xml:space="preserve" text-anchor="start" x="203.88" y="-85.1" font-family="Liberation Sans" font-style="italic" font-size="11.00">FK </text>
+<text xml:space="preserve" text-anchor="start" x="220.99" y="-85.1" font-family="Liberation Sans" font-size="11.00">circleId</text>
+<text xml:space="preserve" text-anchor="start" x="203.88" y="-65.9" font-family="Liberation Sans" font-style="italic" font-size="11.00">FK </text>
+<text xml:space="preserve" text-anchor="start" x="220.99" y="-65.9" font-family="Liberation Sans" font-size="11.00">uid</text>
+<text xml:space="preserve" text-anchor="start" x="203.88" y="-44.6" font-family="Liberation Sans" font-size="11.00"> &#160;&#160;&#160;&#160;&#160;state</text>
+<text xml:space="preserve" text-anchor="start" x="203.88" y="-25.4" font-family="Liberation Sans" font-size="11.00"> &#160;&#160;&#160;&#160;&#160;sharing</text>
+<text xml:space="preserve" text-anchor="start" x="203.88" y="-6.2" font-family="Liberation Sans" font-size="11.00"> &#160;&#160;&#160;&#160;&#160;lastShared (lat, lng, time)</text>
+</g>
+<g id="edge4" class="edge">
+<title>Acc&#45;&gt;Mem</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M245.53,-448.4C246.45,-438.18 247.36,-427.84 248.18,-418 255.65,-328.94 263.13,-226.98 268.14,-156.46"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="249.71,-457.59 239.75,-456.69 239.93,-454.7 249.89,-455.6 249.71,-457.59"/>
+<polyline fill="none" stroke="#1f3864" stroke-width="1.3" points="244.64,-458.14 245.1,-453.16"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="250.17,-452.61 240.21,-451.71 240.39,-449.72 250.35,-450.62 250.17,-452.61"/>
+<polyline fill="none" stroke="#1f3864" stroke-width="1.3" points="245.1,-453.16 245.55,-448.18"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="268.78,-147.4 273.97,-137.74 269.16,-141.98 269.46,-137.86 269.46,-137.86 269.46,-137.86 269.16,-141.98 265,-137.11 268.78,-147.4"/>
+<ellipse fill="none" stroke="#1f3864" stroke-width="1.3" cx="268.34" cy="-153.62" rx="4" ry="4"/>
+<text xml:space="preserve" text-anchor="middle" x="271.74" y="-294.5" font-family="Liberation Sans" font-size="10.00"> &#160;is &#160;</text>
+</g>
+<g id="node6" class="node">
+<title>Adm</title>
+<polygon fill="white" stroke="none" points="335.33,-238.6 335.33,-356.4 427.04,-356.4 427.04,-238.6 335.33,-238.6"/>
+<polygon fill="#1f4e78" stroke="#1f4e78" points="335.33,-335.6 335.33,-335.6 427.04,-335.6 427.04,-335.6 335.33,-335.6"/>
+<polygon fill="none" stroke="#1f4e78" points="335.33,-238.6 335.33,-356.4 427.04,-356.4 427.04,-238.6 335.33,-238.6"/>
+<polygon fill="#dce9f5" stroke="none" points="336.33,-335.6 336.33,-355.4 426.04,-355.4 426.04,-335.6 336.33,-335.6"/>
+<text xml:space="preserve" text-anchor="start" x="339.33" y="-343.05" font-family="Liberation Sans" font-weight="bold" font-size="11.50">AdminDecision</text>
+<text xml:space="preserve" text-anchor="start" x="339.33" y="-323.7" font-family="Liberation Sans" font-weight="bold" font-size="11.00">PK </text>
+<text xml:space="preserve" text-anchor="start" x="357.67" y="-323.7" font-family="Liberation Sans" font-size="11.00">id</text>
+<text xml:space="preserve" text-anchor="start" x="339.33" y="-304.5" font-family="Liberation Sans" font-style="italic" font-size="11.00">FK </text>
+<text xml:space="preserve" text-anchor="start" x="356.44" y="-304.5" font-family="Liberation Sans" font-size="11.00">adminUid</text>
+<text xml:space="preserve" text-anchor="start" x="339.33" y="-283.2" font-family="Liberation Sans" font-size="11.00"> &#160;&#160;&#160;&#160;&#160;target</text>
+<text xml:space="preserve" text-anchor="start" x="339.33" y="-264" font-family="Liberation Sans" font-size="11.00"> &#160;&#160;&#160;&#160;&#160;decision</text>
+<text xml:space="preserve" text-anchor="start" x="339.33" y="-244.8" font-family="Liberation Sans" font-size="11.00"> &#160;&#160;&#160;&#160;&#160;at</text>
+</g>
+<g id="edge6" class="edge">
+<title>Acc&#45;&gt;Adm</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M286,-449.98C292.78,-439.25 299.66,-428.35 306.18,-418 315.39,-403.39 325.21,-387.77 334.61,-372.8"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="285.6,-459.97 277.15,-454.63 278.22,-452.94 286.67,-458.28 285.6,-459.97"/>
+<polyline fill="none" stroke="#1f3864" stroke-width="1.3" points="280.84,-458.14 283.51,-453.92"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="288.28,-455.74 279.82,-450.4 280.89,-448.71 289.34,-454.05 288.28,-455.74"/>
+<polyline fill="none" stroke="#1f3864" stroke-width="1.3" points="283.51,-453.92 286.19,-449.69"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="339.44,-365.11 348.57,-359.03 342.33,-360.5 344.52,-357.01 344.52,-357.01 344.52,-357.01 342.33,-360.5 340.94,-354.24 339.44,-365.11"/>
+<ellipse fill="none" stroke="#1f3864" stroke-width="1.3" cx="336.12" cy="-370.39" rx="4" ry="4"/>
+<text xml:space="preserve" text-anchor="middle" x="353.41" y="-409" font-family="Liberation Sans" font-size="10.00"> &#160;decides (admin) &#160;</text>
+</g>
+<g id="edge3" class="edge">
+<title>Circ&#45;&gt;Mem</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M176.27,-249.14C187.96,-227.16 202.09,-200.71 214.95,-177 219.64,-168.35 224.56,-159.33 229.48,-150.35"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="176.47,-259.41 167.64,-254.72 168.58,-252.95 177.41,-257.65 176.47,-259.41"/>
+<polyline fill="none" stroke="#1f3864" stroke-width="1.3" points="171.59,-257.95 173.93,-253.53"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="178.82,-255 169.99,-250.31 170.92,-248.54 179.75,-253.23 178.82,-255"/>
+<polyline fill="none" stroke="#1f3864" stroke-width="1.3" points="173.93,-253.53 176.28,-249.12"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="231.9,-145.95 240.65,-139.35 234.51,-141.19 236.5,-137.57 236.5,-137.57 236.5,-137.57 234.51,-141.19 232.76,-135.02 231.9,-145.95"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="226.27,-145.81 235.03,-150.62 234.07,-152.38 225.31,-147.56 226.27,-145.81"/>
+<polyline fill="none" stroke="#1f3864" stroke-width="1.3" points="231.13,-147.34 228.73,-151.72"/>
+<text xml:space="preserve" text-anchor="middle" x="228.57" y="-180" font-family="Liberation Sans" font-size="10.00"> &#160;has &#160;</text>
+</g>
+<g id="node5" class="node">
+<title>Inv</title>
+<polygon fill="white" stroke="none" points="85.09,-9.6 85.09,-127.4 157.28,-127.4 157.28,-9.6 85.09,-9.6"/>
+<polygon fill="#1f4e78" stroke="#1f4e78" points="85.09,-106.6 85.09,-106.6 157.28,-106.6 157.28,-106.6 85.09,-106.6"/>
+<polygon fill="none" stroke="#1f4e78" points="85.09,-9.6 85.09,-127.4 157.28,-127.4 157.28,-9.6 85.09,-9.6"/>
+<polygon fill="#dce9f5" stroke="none" points="86.09,-106.6 86.09,-126.4 156.28,-126.4 156.28,-106.6 86.09,-106.6"/>
+<text xml:space="preserve" text-anchor="start" x="95.63" y="-114.05" font-family="Liberation Sans" font-weight="bold" font-size="11.50">Invitation</text>
+<text xml:space="preserve" text-anchor="start" x="89.09" y="-94.7" font-family="Liberation Sans" font-weight="bold" font-size="11.00">PK </text>
+<text xml:space="preserve" text-anchor="start" x="107.43" y="-94.7" font-family="Liberation Sans" font-size="11.00">id</text>
+<text xml:space="preserve" text-anchor="start" x="89.09" y="-75.5" font-family="Liberation Sans" font-style="italic" font-size="11.00">FK </text>
+<text xml:space="preserve" text-anchor="start" x="106.2" y="-75.5" font-family="Liberation Sans" font-size="11.00">circleId</text>
+<text xml:space="preserve" text-anchor="start" x="89.09" y="-54.2" font-family="Liberation Sans" font-size="11.00"> &#160;&#160;&#160;&#160;&#160;toPhone</text>
+<text xml:space="preserve" text-anchor="start" x="89.09" y="-35" font-family="Liberation Sans" font-size="11.00"> &#160;&#160;&#160;&#160;&#160;status</text>
+<text xml:space="preserve" text-anchor="start" x="89.09" y="-15.8" font-family="Liberation Sans" font-size="11.00"> &#160;&#160;&#160;&#160;&#160;expiresAt</text>
+</g>
+<g id="edge5" class="edge">
+<title>Circ&#45;&gt;Inv</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M135.16,-248.61C129.77,-230.2 124.44,-208.84 121.73,-189 119.86,-175.38 118.93,-160.8 118.56,-146.68"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="142.47,-255.55 132.9,-258.43 132.32,-256.52 141.9,-253.64 142.47,-255.55"/>
+<polyline fill="none" stroke="#1f3864" stroke-width="1.3" points="137.97,-257.95 136.53,-253.16"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="141.03,-250.76 131.46,-253.65 130.88,-251.73 140.46,-248.85 141.03,-250.76"/>
+<polyline fill="none" stroke="#1f3864" stroke-width="1.3" points="136.53,-253.16 135.09,-248.37"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="118.49,-137.59 122.9,-127.55 118.44,-132.15 118.4,-128.02 118.4,-128.02 118.4,-128.02 118.44,-132.15 113.9,-127.63 118.49,-137.59"/>
+<ellipse fill="none" stroke="#1f3864" stroke-width="1.3" cx="118.54" cy="-143.82" rx="4" ry="4"/>
+<text xml:space="preserve" text-anchor="middle" x="141.46" y="-180" font-family="Liberation Sans" font-size="10.00"> &#160;issues &#160;</text>
+</g>
+</g>
+</svg>

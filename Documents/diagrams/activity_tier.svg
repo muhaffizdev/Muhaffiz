@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="669px" height="1108px"
+ viewBox="0.00 0.00 502.00 831.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(18 812.84)">
+<title>ad2</title>
+<polygon fill="white" stroke="none" points="-18,18 -18,-812.84 484.13,-812.84 484.13,18 -18,18"/>
+<g id="node1" class="node">
+<title>start</title>
+<ellipse fill="#1f3864" stroke="#1f3864" cx="177.39" cy="-787.64" rx="7.2" ry="7.2"/>
+</g>
+<g id="node3" class="node">
+<title>a</title>
+<path fill="#eaf1f8" stroke="#1f4e78" d="M244.66,-747.44C244.66,-747.44 110.12,-747.44 110.12,-747.44 104.12,-747.44 98.12,-741.44 98.12,-735.44 98.12,-735.44 98.12,-723.44 98.12,-723.44 98.12,-717.44 104.12,-711.44 110.12,-711.44 110.12,-711.44 244.66,-711.44 244.66,-711.44 250.66,-711.44 256.66,-717.44 256.66,-723.44 256.66,-723.44 256.66,-735.44 256.66,-735.44 256.66,-741.44 250.66,-747.44 244.66,-747.44"/>
+<text xml:space="preserve" text-anchor="middle" x="177.39" y="-725.69" font-family="Liberation Sans" font-size="12.50">dispatch(event, location)</text>
+</g>
+<g id="edge1" class="edge">
+<title>start&#45;&gt;a</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M177.39,-780.19C177.39,-774.8 177.39,-766.71 177.39,-758.61"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="180.54,-758.79 177.39,-749.79 174.24,-758.79 180.54,-758.79"/>
+</g>
+<g id="node2" class="node">
+<title>end</title>
+<ellipse fill="#1f3864" stroke="#1f3864" cx="408.39" cy="-20.76" rx="7.2" ry="7.2"/>
+<ellipse fill="none" stroke="#1f3864" cx="408.39" cy="-20.76" rx="11.2" ry="11.2"/>
+</g>
+<g id="node4" class="node">
+<title>t</title>
+<path fill="#eaf1f8" stroke="#1f4e78" d="M259.94,-678.44C259.94,-678.44 94.84,-678.44 94.84,-678.44 88.84,-678.44 82.84,-672.44 82.84,-666.44 82.84,-666.44 82.84,-648.92 82.84,-648.92 82.84,-642.92 88.84,-636.92 94.84,-636.92 94.84,-636.92 259.94,-636.92 259.94,-636.92 265.94,-636.92 271.94,-642.92 271.94,-648.92 271.94,-648.92 271.94,-666.44 271.94,-666.44 271.94,-672.44 265.94,-678.44 259.94,-678.44"/>
+<text xml:space="preserve" text-anchor="middle" x="177.39" y="-661.43" font-family="Liberation Sans" font-size="12.50">Detect tier: probe backend</text>
+<text xml:space="preserve" text-anchor="middle" x="177.39" y="-646.43" font-family="Liberation Sans" font-size="12.50">(T_probe = 3 s, T_good = 1 s)</text>
+</g>
+<g id="edge2" class="edge">
+<title>a&#45;&gt;t</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M177.39,-711.2C177.39,-704.66 177.39,-697 177.39,-689.58"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="180.54,-689.66 177.39,-680.66 174.24,-689.66 180.54,-689.66"/>
+</g>
+<g id="node5" class="node">
+<title>tier</title>
+<polygon fill="#fff4cc" stroke="#b08900" points="177.39,-603.92 150.39,-585.92 177.39,-567.92 204.39,-585.92 177.39,-603.92"/>
+<text xml:space="preserve" text-anchor="middle" x="177.39" y="-582.32" font-family="Liberation Sans" font-size="12.00">Tier?</text>
+</g>
+<g id="edge3" class="edge">
+<title>t&#45;&gt;tier</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M177.39,-636.5C177.39,-629.85 177.39,-622.32 177.39,-615.18"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="180.54,-615.41 177.39,-606.42 174.24,-615.42 180.54,-615.41"/>
+</g>
+<g id="node6" class="node">
+<title>sms1</title>
+<path fill="#eaf1f8" stroke="#1f4e78" d="M137.14,-522.72C137.14,-522.72 27.64,-522.72 27.64,-522.72 21.64,-522.72 15.64,-516.72 15.64,-510.72 15.64,-510.72 15.64,-493.2 15.64,-493.2 15.64,-487.2 21.64,-481.2 27.64,-481.2 27.64,-481.2 137.14,-481.2 137.14,-481.2 143.14,-481.2 149.14,-487.2 149.14,-493.2 149.14,-493.2 149.14,-510.72 149.14,-510.72 149.14,-516.72 143.14,-522.72 137.14,-522.72"/>
+<text xml:space="preserve" text-anchor="middle" x="82.39" y="-505.71" font-family="Liberation Sans" font-size="12.50">Tier 1: send SMS to</text>
+<text xml:space="preserve" text-anchor="middle" x="82.39" y="-490.71" font-family="Liberation Sans" font-size="12.50">every trustee</text>
+</g>
+<g id="edge4" class="edge">
+<title>tier&#45;&gt;sms1</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M166.12,-575.2C153.25,-564.09 131.64,-545.45 113.6,-529.88"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="115.96,-527.76 107.09,-524.27 111.85,-532.53 115.96,-527.76"/>
+<text xml:space="preserve" text-anchor="middle" x="152.46" y="-542.02" font-family="Liberation Sans" font-size="11.00">Tier 1</text>
+</g>
+<g id="node8" class="node">
+<title>sms2</title>
+<path fill="#eaf1f8" stroke="#1f4e78" d="M351.72,-522.72C351.72,-522.72 197.06,-522.72 197.06,-522.72 191.06,-522.72 185.06,-516.72 185.06,-510.72 185.06,-510.72 185.06,-493.2 185.06,-493.2 185.06,-487.2 191.06,-481.2 197.06,-481.2 197.06,-481.2 351.72,-481.2 351.72,-481.2 357.72,-481.2 363.72,-487.2 363.72,-493.2 363.72,-493.2 363.72,-510.72 363.72,-510.72 363.72,-516.72 357.72,-522.72 351.72,-522.72"/>
+<text xml:space="preserve" text-anchor="middle" x="274.39" y="-505.71" font-family="Liberation Sans" font-size="12.50">Tier 2 or 3: send SMS, push</text>
+<text xml:space="preserve" text-anchor="middle" x="274.39" y="-490.71" font-family="Liberation Sans" font-size="12.50">and email in parallel</text>
+</g>
+<g id="edge5" class="edge">
+<title>tier&#45;&gt;sms2</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M188.9,-575.2C202.04,-564.09 224.11,-545.45 242.53,-529.88"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="244.35,-532.47 249.19,-524.25 240.28,-527.66 244.35,-532.47"/>
+<text xml:space="preserve" text-anchor="middle" x="253.4" y="-542.02" font-family="Liberation Sans" font-size="11.00">Tier 2 / 3</text>
+</g>
+<g id="node7" class="node">
+<title>q1</title>
+<path fill="#eaf1f8" stroke="#1f4e78" d="M152.78,-368.84C152.78,-368.84 12,-368.84 12,-368.84 6,-368.84 0,-362.84 0,-356.84 0,-356.84 0,-339.32 0,-339.32 0,-333.32 6,-327.32 12,-327.32 12,-327.32 152.78,-327.32 152.78,-327.32 158.78,-327.32 164.78,-333.32 164.78,-339.32 164.78,-339.32 164.78,-356.84 164.78,-356.84 164.78,-362.84 158.78,-368.84 152.78,-368.84"/>
+<text xml:space="preserve" text-anchor="middle" x="82.39" y="-351.83" font-family="Liberation Sans" font-size="12.50">Queue push, email,</text>
+<text xml:space="preserve" text-anchor="middle" x="82.39" y="-336.83" font-family="Liberation Sans" font-size="12.50">WhatsApp and Near Help</text>
+</g>
+<g id="edge6" class="edge">
+<title>sms1&#45;&gt;q1</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M82.39,-480.79C82.39,-455.03 82.39,-410.2 82.39,-380.08"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="85.54,-380.3 82.39,-371.3 79.24,-380.3 85.54,-380.3"/>
+</g>
+<g id="node14" class="node">
+<title>ret</title>
+<path fill="#fff4d6" stroke="#b08900" d="M196.49,-41.52C196.49,-41.52 70.29,-41.52 70.29,-41.52 64.29,-41.52 58.29,-35.52 58.29,-29.52 58.29,-29.52 58.29,-12 58.29,-12 58.29,-6 64.29,0 70.29,0 70.29,0 196.49,0 196.49,0 202.49,0 208.49,-6 208.49,-12 208.49,-12 208.49,-29.52 208.49,-29.52 208.49,-35.52 202.49,-41.52 196.49,-41.52"/>
+<text xml:space="preserve" text-anchor="middle" x="133.39" y="-24.51" font-family="Liberation Sans" font-size="12.50">Connectivity returns:</text>
+<text xml:space="preserve" text-anchor="middle" x="133.39" y="-9.51" font-family="Liberation Sans" font-size="12.50">flush queue within 30 s</text>
+</g>
+<g id="edge7" class="edge">
+<title>q1&#45;&gt;ret</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" stroke-dasharray="5,2" d="M82.39,-327.06C82.39,-308.18 82.39,-279.06 82.39,-253.8 82.39,-253.8 82.39,-253.8 82.39,-106.48 82.39,-85.48 94.04,-65.2 106.2,-49.75"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="108.32,-52.13 111.68,-43.2 103.49,-48.08 108.32,-52.13"/>
+<text xml:space="preserve" text-anchor="middle" x="93.09" y="-201.82" font-family="Liberation Sans" font-size="11.00">later</text>
+</g>
+<g id="node9" class="node">
+<title>wa</title>
+<polygon fill="#fff4cc" stroke="#b08900" points="274.39,-448.2 163.43,-416.52 274.39,-384.84 385.35,-416.52 274.39,-448.2"/>
+<text xml:space="preserve" text-anchor="middle" x="274.39" y="-420.12" font-family="Liberation Sans" font-size="12.00">Loud SOS and</text>
+<text xml:space="preserve" text-anchor="middle" x="274.39" y="-405.72" font-family="Liberation Sans" font-size="12.00">WhatsApp enabled?</text>
+</g>
+<g id="edge8" class="edge">
+<title>sms2&#45;&gt;wa</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M274.39,-480.76C274.39,-474.28 274.39,-466.85 274.39,-459.4"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="277.54,-459.57 274.39,-450.57 271.24,-459.57 277.54,-459.57"/>
+</g>
+<g id="node10" class="node">
+<title>wa1</title>
+<path fill="#eaf1f8" stroke="#1f4e78" d="M309.21,-311.32C309.21,-311.32 163.58,-311.32 163.58,-311.32 157.58,-311.32 151.58,-305.32 151.58,-299.32 151.58,-299.32 151.58,-281.8 151.58,-281.8 151.58,-275.8 157.58,-269.8 163.58,-269.8 163.58,-269.8 309.21,-269.8 309.21,-269.8 315.21,-269.8 321.21,-275.8 321.21,-281.8 321.21,-281.8 321.21,-299.32 321.21,-299.32 321.21,-305.32 315.21,-311.32 309.21,-311.32"/>
+<text xml:space="preserve" text-anchor="middle" x="236.39" y="-294.31" font-family="Liberation Sans" font-size="12.50">Offer WhatsApp message;</text>
+<text xml:space="preserve" text-anchor="middle" x="236.39" y="-279.31" font-family="Liberation Sans" font-size="12.50">user confirms send</text>
+</g>
+<g id="edge9" class="edge">
+<title>wa&#45;&gt;wa1</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M265.67,-387.08C259.72,-367.66 251.84,-341.95 245.75,-322.1"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="248.81,-321.31 243.16,-313.63 242.78,-323.16 248.81,-321.31"/>
+<text xml:space="preserve" text-anchor="middle" x="268.47" y="-344.78" font-family="Liberation Sans" font-size="11.00">yes</text>
+</g>
+<g id="node11" class="node">
+<title>fail</title>
+<polygon fill="#fff4cc" stroke="#b08900" points="364.39,-236.8 316.81,-205.12 364.39,-173.44 411.97,-205.12 364.39,-236.8"/>
+<text xml:space="preserve" text-anchor="middle" x="364.39" y="-208.72" font-family="Liberation Sans" font-size="12.00">Channel</text>
+<text xml:space="preserve" text-anchor="middle" x="364.39" y="-194.32" font-family="Liberation Sans" font-size="12.00">failed?</text>
+</g>
+<g id="edge10" class="edge">
+<title>wa&#45;&gt;fail</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M293.44,-390.25C307.94,-369.9 327.4,-340.05 339.39,-311.32 348.18,-290.27 354.26,-265.51 358.22,-245.29"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="361.3,-245.94 359.84,-236.52 355.11,-244.79 361.3,-245.94"/>
+<text xml:space="preserve" text-anchor="middle" x="358.68" y="-287.26" font-family="Liberation Sans" font-size="11.00">no</text>
+</g>
+<g id="edge11" class="edge">
+<title>wa1&#45;&gt;fail</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M267.38,-269.36C286.92,-256.62 312.12,-240.19 331.94,-227.27"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="333.44,-230.06 339.26,-222.5 330,-224.78 333.44,-230.06"/>
+</g>
+<g id="node12" class="node">
+<title>enq</title>
+<path fill="#eaf1f8" stroke="#1f4e78" d="M303.03,-128.24C303.03,-128.24 149.75,-128.24 149.75,-128.24 143.75,-128.24 137.75,-122.24 137.75,-116.24 137.75,-116.24 137.75,-98.72 137.75,-98.72 137.75,-92.72 143.75,-86.72 149.75,-86.72 149.75,-86.72 303.03,-86.72 303.03,-86.72 309.03,-86.72 315.03,-92.72 315.03,-98.72 315.03,-98.72 315.03,-116.24 315.03,-116.24 315.03,-122.24 309.03,-128.24 303.03,-128.24"/>
+<text xml:space="preserve" text-anchor="middle" x="226.39" y="-111.23" font-family="Liberation Sans" font-size="12.50">Enqueue; back&#45;off</text>
+<text xml:space="preserve" text-anchor="middle" x="226.39" y="-96.23" font-family="Liberation Sans" font-size="12.50">(15 s doubling, max 15 min)</text>
+</g>
+<g id="edge12" class="edge">
+<title>fail&#45;&gt;enq</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M341.6,-188.33C320.6,-173.77 289.03,-151.89 264.25,-134.72"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="266.27,-132.28 257.07,-129.74 262.68,-137.46 266.27,-132.28"/>
+<text xml:space="preserve" text-anchor="middle" x="303.95" y="-147.54" font-family="Liberation Sans" font-size="11.00">yes</text>
+</g>
+<g id="node13" class="node">
+<title>mark</title>
+<path fill="#eaf1f8" stroke="#1f4e78" d="M454.13,-128.24C454.13,-128.24 362.65,-128.24 362.65,-128.24 356.65,-128.24 350.65,-122.24 350.65,-116.24 350.65,-116.24 350.65,-98.72 350.65,-98.72 350.65,-92.72 356.65,-86.72 362.65,-86.72 362.65,-86.72 454.13,-86.72 454.13,-86.72 460.13,-86.72 466.13,-92.72 466.13,-98.72 466.13,-98.72 466.13,-116.24 466.13,-116.24 466.13,-122.24 460.13,-128.24 454.13,-128.24"/>
+<text xml:space="preserve" text-anchor="middle" x="408.39" y="-111.23" font-family="Liberation Sans" font-size="12.50">Mark delivered;</text>
+<text xml:space="preserve" text-anchor="middle" x="408.39" y="-96.23" font-family="Liberation Sans" font-size="12.50">update event log</text>
+</g>
+<g id="edge13" class="edge">
+<title>fail&#45;&gt;mark</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M375.27,-180.48C381.11,-167.78 388.37,-152 394.6,-138.45"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="397.4,-139.9 398.3,-130.4 391.68,-137.26 397.4,-139.9"/>
+<text xml:space="preserve" text-anchor="middle" x="397.74" y="-147.54" font-family="Liberation Sans" font-size="11.00">no</text>
+</g>
+<g id="edge14" class="edge">
+<title>enq&#45;&gt;ret</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" stroke-dasharray="5,2" d="M204.35,-86.4C192.16,-75.3 176.84,-61.34 163.56,-49.24"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="165.82,-47.04 157.05,-43.31 161.58,-51.7 165.82,-47.04"/>
+<text xml:space="preserve" text-anchor="middle" x="196.46" y="-60.82" font-family="Liberation Sans" font-size="11.00">retry</text>
+</g>
+<g id="edge16" class="edge">
+<title>mark&#45;&gt;end</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M408.39,-86.4C408.39,-73.37 408.39,-56.39 408.39,-43.11"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="411.54,-43.13 408.39,-34.13 405.24,-43.13 411.54,-43.13"/>
+</g>
+<g id="edge15" class="edge">
+<title>ret&#45;&gt;mark</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M199.01,-41.98C241.57,-55.09 296.91,-72.14 340.01,-85.41"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="339,-88.4 348.53,-88.04 340.85,-82.38 339,-88.4"/>
+<text xml:space="preserve" text-anchor="middle" x="297.75" y="-60.82" font-family="Liberation Sans" font-size="11.00">sent</text>
+</g>
+</g>
+</svg>

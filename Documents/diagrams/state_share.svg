@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="955px" height="1011px"
+ viewBox="0.00 0.00 716.00 758.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(18 740)">
+<title>share</title>
+<polygon fill="white" stroke="none" points="-18,18 -18,-740 698.47,-740 698.47,18 -18,18"/>
+<g id="clust1" class="cluster">
+<title>cluster_member</title>
+<path fill="#f4faf8" stroke="#0f5c63" d="M20,-112C20,-112 200,-112 200,-112 206,-112 212,-118 212,-124 212,-124 212,-443.6 212,-443.6 212,-449.6 206,-455.6 200,-455.6 200,-455.6 20,-455.6 20,-455.6 14,-455.6 8,-449.6 8,-443.6 8,-443.6 8,-124 8,-124 8,-118 14,-112 20,-112"/>
+<text xml:space="preserve" text-anchor="start" x="51.65" y="-441.8" font-family="Liberation Sans" font-weight="bold" font-size="12.00">Member of the circle</text>
+</g>
+<g id="node1" class="node">
+<title>start</title>
+<ellipse fill="#1f3864" stroke="#1f3864" cx="110" cy="-714.8" rx="7.2" ry="7.2"/>
+</g>
+<g id="node3" class="node">
+<title>Not</title>
+<path fill="#eaf1f8" stroke="none" d="M76,-629C76,-629 144,-629 144,-629 148.6,-629 153.2,-633.6 153.2,-638.2 153.2,-638.2 153.2,-647.4 153.2,-647.4 153.2,-652 148.6,-656.6 144,-656.6 144,-656.6 76,-656.6 76,-656.6 71.4,-656.6 66.8,-652 66.8,-647.4 66.8,-647.4 66.8,-638.2 66.8,-638.2 66.8,-633.6 71.4,-629 76,-629"/>
+<path fill="none" stroke="#1f4e78" d="M76,-629C76,-629 144,-629 144,-629 148.6,-629 153.2,-633.6 153.2,-638.2 153.2,-638.2 153.2,-647.4 153.2,-647.4 153.2,-652 148.6,-656.6 144,-656.6 144,-656.6 76,-656.6 76,-656.6 71.4,-656.6 66.8,-652 66.8,-647.4 66.8,-647.4 66.8,-638.2 66.8,-638.2 66.8,-633.6 71.4,-629 76,-629"/>
+<text xml:space="preserve" text-anchor="start" x="72.8" y="-639.9" font-family="Liberation Sans" font-weight="bold" font-size="13.00">Not in circle</text>
+</g>
+<g id="edge1" class="edge">
+<title>start&#45;&gt;Not</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M110,-707.34C110,-698.35 110,-681.59 110,-667.53"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="113.15,-667.57 110,-658.57 106.85,-667.57 113.15,-667.57"/>
+</g>
+<g id="node2" class="node">
+<title>end</title>
+<ellipse fill="#1f3864" stroke="#1f3864" cx="606" cy="-11.2" rx="7.2" ry="7.2"/>
+<ellipse fill="none" stroke="#1f3864" cx="606" cy="-11.2" rx="11.2" ry="11.2"/>
+</g>
+<g id="node4" class="node">
+<title>Inv</title>
+<path fill="#eaf1f8" stroke="none" d="M49.96,-501.8C49.96,-501.8 170.04,-501.8 170.04,-501.8 176.04,-501.8 182.04,-507.8 182.04,-513.8 182.04,-513.8 182.04,-553.8 182.04,-553.8 182.04,-559.8 176.04,-565.8 170.04,-565.8 170.04,-565.8 49.96,-565.8 49.96,-565.8 43.96,-565.8 37.96,-559.8 37.96,-553.8 37.96,-553.8 37.96,-513.8 37.96,-513.8 37.96,-507.8 43.96,-501.8 49.96,-501.8"/>
+<polygon fill="#1f4e78" stroke="#1f4e78" points="37.96,-539.2 37.96,-539.2 182.04,-539.2 182.04,-539.2 37.96,-539.2"/>
+<path fill="none" stroke="#1f4e78" d="M49.96,-501.8C49.96,-501.8 170.04,-501.8 170.04,-501.8 176.04,-501.8 182.04,-507.8 182.04,-513.8 182.04,-513.8 182.04,-553.8 182.04,-553.8 182.04,-559.8 176.04,-565.8 170.04,-565.8 170.04,-565.8 49.96,-565.8 49.96,-565.8 43.96,-565.8 37.96,-559.8 37.96,-553.8 37.96,-553.8 37.96,-513.8 37.96,-513.8 37.96,-507.8 43.96,-501.8 49.96,-501.8"/>
+<text xml:space="preserve" text-anchor="start" x="89.05" y="-549.1" font-family="Liberation Sans" font-weight="bold" font-size="13.00">Invited</text>
+<text xml:space="preserve" text-anchor="start" x="43.96" y="-523.2" font-family="Liberation Sans" font-size="11.00">entry / invitation pending (7</text>
+<text xml:space="preserve" text-anchor="start" x="43.96" y="-510" font-family="Liberation Sans" font-size="11.00"> &#160;&#160;&#160;days)</text>
+</g>
+<g id="edge2" class="edge">
+<title>Not&#45;&gt;Inv</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M67.01,-630.54C53.78,-624.83 40.68,-616.39 32.96,-604 25.9,-592.68 29.4,-582.11 37.94,-572.81"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="39.81,-575.37 44.3,-566.96 35.54,-570.73 39.81,-575.37"/>
+<text xml:space="preserve" text-anchor="middle" x="82.48" y="-594.1" font-family="Liberation Sans" font-size="11.00">invited by a member</text>
+</g>
+<g id="edge4" class="edge">
+<title>Inv&#45;&gt;Not</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M132.36,-565.48C138.4,-577.38 142.22,-591.2 138,-604 136.08,-609.82 132.88,-615.47 129.32,-620.56"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="126.98,-618.43 123.92,-627.46 131.95,-622.31 126.98,-618.43"/>
+<text xml:space="preserve" text-anchor="middle" x="197.26" y="-594.1" font-family="Liberation Sans" font-size="11.00">declines or 7 days pass</text>
+</g>
+<g id="node5" class="node">
+<title>Acc</title>
+<path fill="#ffffff" stroke="none" d="M45.39,-355.2C45.39,-355.2 174.61,-355.2 174.61,-355.2 180.61,-355.2 186.61,-361.2 186.61,-367.2 186.61,-367.2 186.61,-407.2 186.61,-407.2 186.61,-413.2 180.61,-419.2 174.61,-419.2 174.61,-419.2 45.39,-419.2 45.39,-419.2 39.39,-419.2 33.39,-413.2 33.39,-407.2 33.39,-407.2 33.39,-367.2 33.39,-367.2 33.39,-361.2 39.39,-355.2 45.39,-355.2"/>
+<polygon fill="#1f4e78" stroke="#1f4e78" points="33.39,-392.6 33.39,-392.6 186.61,-392.6 186.61,-392.6 33.39,-392.6"/>
+<path fill="none" stroke="#1f4e78" d="M45.39,-355.2C45.39,-355.2 174.61,-355.2 174.61,-355.2 180.61,-355.2 186.61,-361.2 186.61,-367.2 186.61,-367.2 186.61,-407.2 186.61,-407.2 186.61,-413.2 180.61,-419.2 174.61,-419.2 174.61,-419.2 45.39,-419.2 45.39,-419.2 39.39,-419.2 33.39,-413.2 33.39,-407.2 33.39,-407.2 33.39,-367.2 33.39,-367.2 33.39,-361.2 39.39,-355.2 45.39,-355.2"/>
+<text xml:space="preserve" text-anchor="start" x="80.74" y="-402.5" font-family="Liberation Sans" font-weight="bold" font-size="13.00">Accepted</text>
+<text xml:space="preserve" text-anchor="start" x="39.39" y="-376.6" font-family="Liberation Sans" font-size="11.00">entry / show circle; sharing is</text>
+<text xml:space="preserve" text-anchor="start" x="39.39" y="-363.4" font-family="Liberation Sans" font-size="11.00"> &#160;&#160;&#160;off</text>
+</g>
+<g id="edge3" class="edge">
+<title>Inv&#45;&gt;Acc</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M110,-502.13C110,-481.12 110,-452.98 110,-429.93"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="113.15,-430.04 110,-421.04 106.85,-430.04 113.15,-430.04"/>
+<text xml:space="preserve" text-anchor="middle" x="128.95" y="-466.9" font-family="Liberation Sans" font-size="11.00">accepts</text>
+</g>
+<g id="node6" class="node">
+<title>Sh</title>
+<path fill="#e3f2ee" stroke="none" d="M33.76,-73.4C33.76,-73.4 186.24,-73.4 186.24,-73.4 192.24,-73.4 198.24,-79.4 198.24,-85.4 198.24,-85.4 198.24,-138.6 198.24,-138.6 198.24,-144.6 192.24,-150.6 186.24,-150.6 186.24,-150.6 33.76,-150.6 33.76,-150.6 27.76,-150.6 21.76,-144.6 21.76,-138.6 21.76,-138.6 21.76,-85.4 21.76,-85.4 21.76,-79.4 27.76,-73.4 33.76,-73.4"/>
+<polygon fill="#0f5c63" stroke="#0f5c63" points="21.76,-124 21.76,-124 198.24,-124 198.24,-124 21.76,-124"/>
+<path fill="none" stroke="#0f5c63" d="M33.76,-73.4C33.76,-73.4 186.24,-73.4 186.24,-73.4 192.24,-73.4 198.24,-79.4 198.24,-85.4 198.24,-85.4 198.24,-138.6 198.24,-138.6 198.24,-144.6 192.24,-150.6 186.24,-150.6 186.24,-150.6 33.76,-150.6 33.76,-150.6 27.76,-150.6 21.76,-144.6 21.76,-138.6 21.76,-138.6 21.76,-85.4 21.76,-85.4 21.76,-79.4 27.76,-73.4 33.76,-73.4"/>
+<text xml:space="preserve" text-anchor="start" x="85.8" y="-133.9" font-family="Liberation Sans" font-weight="bold" font-size="13.00">Sharing</text>
+<text xml:space="preserve" text-anchor="start" x="27.76" y="-108" font-family="Liberation Sans" font-size="11.00">entry / show persistent</text>
+<text xml:space="preserve" text-anchor="start" x="27.76" y="-94.8" font-family="Liberation Sans" font-size="11.00"> &#160;&#160;&#160;indicator; publish on movement</text>
+<text xml:space="preserve" text-anchor="start" x="27.76" y="-81.6" font-family="Liberation Sans" font-size="11.00">do / publish location</text>
+</g>
+<g id="edge5" class="edge">
+<title>Acc&#45;&gt;Sh</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M110,-355.39C110,-308.03 110,-216.96 110,-160.93"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="113.15,-161.18 110,-152.18 106.85,-161.18 113.15,-161.18"/>
+<text xml:space="preserve" text-anchor="middle" x="170.53" y="-262.3" font-family="Liberation Sans" font-size="11.00">member enables sharing</text>
+</g>
+<g id="node8" class="node">
+<title>Left</title>
+<path fill="#eaf1f8" stroke="none" d="M543.53,-80C543.53,-80 668.47,-80 668.47,-80 674.47,-80 680.47,-86 680.47,-92 680.47,-92 680.47,-132 680.47,-132 680.47,-138 674.47,-144 668.47,-144 668.47,-144 543.53,-144 543.53,-144 537.53,-144 531.53,-138 531.53,-132 531.53,-132 531.53,-92 531.53,-92 531.53,-86 537.53,-80 543.53,-80"/>
+<polygon fill="#1f4e78" stroke="#1f4e78" points="531.53,-117.4 531.53,-117.4 680.47,-117.4 680.47,-117.4 531.53,-117.4"/>
+<path fill="none" stroke="#1f4e78" d="M543.53,-80C543.53,-80 668.47,-80 668.47,-80 674.47,-80 680.47,-86 680.47,-92 680.47,-92 680.47,-132 680.47,-132 680.47,-138 674.47,-144 668.47,-144 668.47,-144 543.53,-144 543.53,-144 537.53,-144 531.53,-138 531.53,-132 531.53,-132 531.53,-92 531.53,-92 531.53,-86 537.53,-80 543.53,-80"/>
+<text xml:space="preserve" text-anchor="start" x="575.29" y="-127.3" font-family="Liberation Sans" font-weight="bold" font-size="13.00">Left circle</text>
+<text xml:space="preserve" text-anchor="start" x="537.53" y="-101.4" font-family="Liberation Sans" font-size="11.00">entry / remove membership;</text>
+<text xml:space="preserve" text-anchor="start" x="537.53" y="-88.2" font-family="Liberation Sans" font-size="11.00"> &#160;&#160;&#160;delete stored location</text>
+</g>
+<g id="edge8" class="edge">
+<title>Acc&#45;&gt;Left</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M186.37,-380.73C266.48,-372.57 394.34,-352.57 494,-304.2 557.94,-273.17 586.81,-266.34 617,-202 623.88,-187.34 623.35,-169.91 620.3,-154.37"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="623.43,-153.92 618.3,-145.88 617.3,-155.37 623.43,-153.92"/>
+<text xml:space="preserve" text-anchor="middle" x="630.89" y="-262.3" font-family="Liberation Sans" font-size="11.00">leave circle</text>
+</g>
+<g id="node7" class="node">
+<title>Stop</title>
+<path fill="#fff4d6" stroke="none" d="M330.15,-227C330.15,-227 461.85,-227 461.85,-227 467.85,-227 473.85,-233 473.85,-239 473.85,-239 473.85,-292.2 473.85,-292.2 473.85,-298.2 467.85,-304.2 461.85,-304.2 461.85,-304.2 330.15,-304.2 330.15,-304.2 324.15,-304.2 318.15,-298.2 318.15,-292.2 318.15,-292.2 318.15,-239 318.15,-239 318.15,-233 324.15,-227 330.15,-227"/>
+<polygon fill="#b08900" stroke="#b08900" points="318.15,-277.6 318.15,-277.6 473.85,-277.6 473.85,-277.6 318.15,-277.6"/>
+<path fill="none" stroke="#b08900" d="M330.15,-227C330.15,-227 461.85,-227 461.85,-227 467.85,-227 473.85,-233 473.85,-239 473.85,-239 473.85,-292.2 473.85,-292.2 473.85,-298.2 467.85,-304.2 461.85,-304.2 461.85,-304.2 330.15,-304.2 330.15,-304.2 324.15,-304.2 318.15,-298.2 318.15,-292.2 318.15,-292.2 318.15,-239 318.15,-239 318.15,-233 324.15,-227 330.15,-227"/>
+<text xml:space="preserve" text-anchor="start" x="370" y="-287.5" font-family="Liberation Sans" font-weight="bold" font-size="13.00">Stopped</text>
+<text xml:space="preserve" text-anchor="start" x="324.15" y="-261.6" font-family="Liberation Sans" font-size="11.00">entry / stop publishing; freeze</text>
+<text xml:space="preserve" text-anchor="start" x="324.15" y="-248.4" font-family="Liberation Sans" font-size="11.00"> &#160;&#160;&#160;last location</text>
+<text xml:space="preserve" text-anchor="start" x="324.15" y="-235.2" font-family="Liberation Sans" font-size="11.00">do / others see &quot;Not live&quot;</text>
+</g>
+<g id="edge6" class="edge">
+<title>Sh&#45;&gt;Stop</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M179.25,-150.49C193.51,-158.55 208.35,-167.18 222,-175.6 239.82,-186.58 242.78,-191.7 261,-202 275.99,-210.48 292.33,-218.78 308.3,-226.44"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="306.91,-229.27 316.4,-230.27 309.61,-223.57 306.91,-229.27"/>
+<text xml:space="preserve" text-anchor="middle" x="303.5" y="-192.1" font-family="Liberation Sans" font-size="11.00">safe phrase, then</text>
+<text xml:space="preserve" text-anchor="middle" x="303.5" y="-178.9" font-family="Liberation Sans" font-size="11.00">toggle off</text>
+</g>
+<g id="edge7" class="edge">
+<title>Stop&#45;&gt;Sh</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M385.7,-227.43C378.9,-209.36 368.19,-188.75 352,-175.6 311.77,-142.9 256.38,-127.09 208.75,-119.53"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="209.4,-116.44 200.03,-118.23 208.47,-122.67 209.4,-116.44"/>
+<text xml:space="preserve" text-anchor="middle" x="434.98" y="-185.5" font-family="Liberation Sans" font-size="11.00">member resumes sharing</text>
+</g>
+<g id="edge9" class="edge">
+<title>Stop&#45;&gt;Left</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M473.82,-231.33C490.37,-222.8 507.28,-212.91 522,-202 541.36,-187.65 560.06,-168.54 574.88,-151.71"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="577.05,-154.02 580.54,-145.15 572.28,-149.91 577.05,-154.02"/>
+<text xml:space="preserve" text-anchor="middle" x="579.88" y="-185.5" font-family="Liberation Sans" font-size="11.00">leave circle</text>
+</g>
+<g id="edge10" class="edge">
+<title>Left&#45;&gt;end</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M606,-80.01C606,-64.78 606,-46.82 606,-33.21"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="609.15,-33.52 606,-24.52 602.85,-33.52 609.15,-33.52"/>
+</g>
+</g>
+</svg>

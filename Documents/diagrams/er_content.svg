@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="521px" height="559px"
+ viewBox="0.00 0.00 391.00 419.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(18 400.6)">
+<title>erk</title>
+<polygon fill="white" stroke="none" points="-18,18 -18,-400.6 373.02,-400.6 373.02,18 -18,18"/>
+<g id="node1" class="node">
+<title>Lib</title>
+<polygon fill="white" stroke="none" points="8.63,0 8.63,-98.6 134.83,-98.6 134.83,0 8.63,0"/>
+<polygon fill="#b08900" stroke="#b08900" points="8.63,-77.8 8.63,-77.8 134.83,-77.8 134.83,-77.8 8.63,-77.8"/>
+<polygon fill="none" stroke="#b08900" points="8.63,0 8.63,-98.6 134.83,-98.6 134.83,0 8.63,0"/>
+<polygon fill="#fff1c9" stroke="none" points="9.63,-77.8 9.63,-97.6 133.83,-97.6 133.83,-77.8 9.63,-77.8"/>
+<text xml:space="preserve" text-anchor="start" x="12.63" y="-85.25" font-family="Liberation Sans" font-weight="bold" font-size="11.50">LibraryItem (bundled)</text>
+<text xml:space="preserve" text-anchor="start" x="12.63" y="-65.9" font-family="Liberation Sans" font-weight="bold" font-size="11.00">PK </text>
+<text xml:space="preserve" text-anchor="start" x="30.96" y="-65.9" font-family="Liberation Sans" font-size="11.00">id</text>
+<text xml:space="preserve" text-anchor="start" x="12.63" y="-44.6" font-family="Liberation Sans" font-size="11.00"> &#160;&#160;&#160;&#160;&#160;title, category</text>
+<text xml:space="preserve" text-anchor="start" x="12.63" y="-25.4" font-family="Liberation Sans" font-size="11.00"> &#160;&#160;&#160;&#160;&#160;summary, body</text>
+<text xml:space="preserve" text-anchor="start" x="12.63" y="-6.2" font-family="Liberation Sans" font-size="11.00"> &#160;&#160;&#160;&#160;&#160;embedding[384]</text>
+</g>
+<g id="node2" class="node">
+<title>Book</title>
+<polygon fill="white" stroke="none" points="281.6,-19.2 281.6,-79.4 355.02,-79.4 355.02,-19.2 281.6,-19.2"/>
+<polygon fill="#b08900" stroke="#b08900" points="281.6,-58.6 281.6,-58.6 355.02,-58.6 355.02,-58.6 281.6,-58.6"/>
+<polygon fill="none" stroke="#b08900" points="281.6,-19.2 281.6,-79.4 355.02,-79.4 355.02,-19.2 281.6,-19.2"/>
+<polygon fill="#fff1c9" stroke="none" points="282.6,-58.6 282.6,-78.4 354.02,-78.4 354.02,-58.6 282.6,-58.6"/>
+<text xml:space="preserve" text-anchor="start" x="290.19" y="-66.05" font-family="Liberation Sans" font-weight="bold" font-size="11.50">Bookmark</text>
+<text xml:space="preserve" text-anchor="start" x="285.6" y="-46.7" font-family="Liberation Sans" font-weight="bold" font-size="11.00">PK </text>
+<text xml:space="preserve" text-anchor="start" x="303.94" y="-46.7" font-family="Liberation Sans" font-size="11.00">itemId</text>
+<text xml:space="preserve" text-anchor="start" x="285.6" y="-25.4" font-family="Liberation Sans" font-size="11.00"> &#160;&#160;&#160;&#160;&#160;createdAt</text>
+</g>
+<g id="edge1" class="edge">
+<title>Lib&#45;&gt;Book</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M144.52,-49.3C182.11,-49.3 227.43,-49.3 262.23,-49.3"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="135.76,-54.3 135.76,-44.3 137.76,-44.3 137.76,-54.3 135.76,-54.3"/>
+<polyline fill="none" stroke="#1f3864" stroke-width="1.3" points="134.76,-49.3 139.76,-49.3"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="140.76,-54.3 140.76,-44.3 142.76,-44.3 142.76,-54.3 140.76,-54.3"/>
+<polyline fill="none" stroke="#1f3864" stroke-width="1.3" points="139.76,-49.3 144.76,-49.3"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="271.43,-49.3 281.43,-53.8 276.86,-49.3 280.99,-49.3 280.99,-49.3 280.99,-49.3 276.86,-49.3 281.43,-44.8 271.43,-49.3"/>
+<ellipse fill="none" stroke="#1f3864" stroke-width="1.3" cx="265.19" cy="-49.3" rx="4" ry="4"/>
+<text xml:space="preserve" text-anchor="middle" x="212.53" y="-52.3" font-family="Liberation Sans" font-size="10.00"> &#160;bookmarked &#160;</text>
+</g>
+<g id="node3" class="node">
+<title>Dir</title>
+<polygon fill="white" stroke="none" points="0,-142 0,-240.6 143.46,-240.6 143.46,-142 0,-142"/>
+<polygon fill="#b08900" stroke="#b08900" points="0,-219.8 0,-219.8 143.46,-219.8 143.46,-219.8 0,-219.8"/>
+<polygon fill="none" stroke="#b08900" points="0,-142 0,-240.6 143.46,-240.6 143.46,-142 0,-142"/>
+<polygon fill="#fff1c9" stroke="none" points="1,-219.8 1,-239.6 142.46,-239.6 142.46,-219.8 1,-219.8"/>
+<text xml:space="preserve" text-anchor="start" x="4" y="-227.25" font-family="Liberation Sans" font-weight="bold" font-size="11.50">DirectoryEntry (bundled)</text>
+<text xml:space="preserve" text-anchor="start" x="4" y="-207.9" font-family="Liberation Sans" font-weight="bold" font-size="11.00">PK </text>
+<text xml:space="preserve" text-anchor="start" x="22.34" y="-207.9" font-family="Liberation Sans" font-size="11.00">id</text>
+<text xml:space="preserve" text-anchor="start" x="4" y="-186.6" font-family="Liberation Sans" font-size="11.00"> &#160;&#160;&#160;&#160;&#160;name, category</text>
+<text xml:space="preserve" text-anchor="start" x="4" y="-167.4" font-family="Liberation Sans" font-size="11.00"> &#160;&#160;&#160;&#160;&#160;phone</text>
+<text xml:space="preserve" text-anchor="start" x="4" y="-148.2" font-family="Liberation Sans" font-size="11.00"> &#160;&#160;&#160;&#160;&#160;lat, lng</text>
+</g>
+<g id="node4" class="node">
+<title>Con</title>
+<polygon fill="white" stroke="none" points="0.64,-284 0.64,-382.6 142.81,-382.6 142.81,-284 0.64,-284"/>
+<polygon fill="#b08900" stroke="#b08900" points="0.64,-361.8 0.64,-361.8 142.81,-361.8 142.81,-361.8 0.64,-361.8"/>
+<polygon fill="none" stroke="#b08900" points="0.64,-284 0.64,-382.6 142.81,-382.6 142.81,-284 0.64,-284"/>
+<polygon fill="#fff1c9" stroke="none" points="1.64,-361.8 1.64,-381.6 141.81,-381.6 141.81,-361.8 1.64,-361.8"/>
+<text xml:space="preserve" text-anchor="start" x="4.64" y="-369.25" font-family="Liberation Sans" font-weight="bold" font-size="11.50">ConsentRecord (setting)</text>
+<text xml:space="preserve" text-anchor="start" x="4.64" y="-347.8" font-family="Liberation Sans" font-size="11.00"> &#160;&#160;&#160;&#160;&#160;micDetection</text>
+<text xml:space="preserve" text-anchor="start" x="4.64" y="-328.6" font-family="Liberation Sans" font-size="11.00"> &#160;&#160;&#160;&#160;&#160;voiceActivation</text>
+<text xml:space="preserve" text-anchor="start" x="4.64" y="-309.4" font-family="Liberation Sans" font-size="11.00"> &#160;&#160;&#160;&#160;&#160;locationSharing</text>
+<text xml:space="preserve" text-anchor="start" x="4.64" y="-290.2" font-family="Liberation Sans" font-size="11.00"> &#160;&#160;&#160;&#160;&#160;acceptedAt</text>
+</g>
+</g>
+</svg>

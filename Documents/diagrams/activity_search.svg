@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="563px" height="988px"
+ viewBox="0.00 0.00 422.00 741.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(18 723)">
+<title>ad7</title>
+<polygon fill="white" stroke="none" points="-18,18 -18,-723 404.31,-723 404.31,18 -18,18"/>
+<g id="node1" class="node">
+<title>start</title>
+<ellipse fill="#1f3864" stroke="#1f3864" cx="228.94" cy="-697.8" rx="7.2" ry="7.2"/>
+</g>
+<g id="node3" class="node">
+<title>q</title>
+<path fill="#eaf1f8" stroke="#1f4e78" d="M280.91,-659.6C280.91,-659.6 176.96,-659.6 176.96,-659.6 170.96,-659.6 164.96,-653.6 164.96,-647.6 164.96,-647.6 164.96,-635.6 164.96,-635.6 164.96,-629.6 170.96,-623.6 176.96,-623.6 176.96,-623.6 280.91,-623.6 280.91,-623.6 286.91,-623.6 292.91,-629.6 292.91,-635.6 292.91,-635.6 292.91,-647.6 292.91,-647.6 292.91,-653.6 286.91,-659.6 280.91,-659.6"/>
+<text xml:space="preserve" text-anchor="middle" x="228.94" y="-637.85" font-family="Liberation Sans" font-size="12.50">User types a query</text>
+</g>
+<g id="edge1" class="edge">
+<title>start&#45;&gt;q</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M228.94,-690.15C228.94,-685.2 228.94,-678.06 228.94,-670.82"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="232.09,-670.98 228.94,-661.98 225.79,-670.98 232.09,-670.98"/>
+</g>
+<g id="node2" class="node">
+<title>end</title>
+<ellipse fill="#1f3864" stroke="#1f3864" cx="157.94" cy="-11.2" rx="7.2" ry="7.2"/>
+<ellipse fill="none" stroke="#1f3864" cx="157.94" cy="-11.2" rx="11.2" ry="11.2"/>
+</g>
+<g id="node4" class="node">
+<title>m</title>
+<polygon fill="#fff4cc" stroke="#b08900" points="228.94,-592.6 129.33,-560.92 228.94,-529.24 328.54,-560.92 228.94,-592.6"/>
+<text xml:space="preserve" text-anchor="middle" x="228.94" y="-564.52" font-family="Liberation Sans" font-size="12.00">Embedding model</text>
+<text xml:space="preserve" text-anchor="middle" x="228.94" y="-550.12" font-family="Liberation Sans" font-size="12.00">available?</text>
+</g>
+<g id="edge2" class="edge">
+<title>q&#45;&gt;m</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M228.94,-623.14C228.94,-617.32 228.94,-610.55 228.94,-603.69"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="232.09,-603.92 228.94,-594.92 225.79,-603.92 232.09,-603.92"/>
+</g>
+<g id="node5" class="node">
+<title>e</title>
+<path fill="#eaf1f8" stroke="#1f4e78" d="M216.17,-486.04C216.17,-486.04 83.7,-486.04 83.7,-486.04 77.7,-486.04 71.7,-480.04 71.7,-474.04 71.7,-474.04 71.7,-456.52 71.7,-456.52 71.7,-450.52 77.7,-444.52 83.7,-444.52 83.7,-444.52 216.17,-444.52 216.17,-444.52 222.17,-444.52 228.17,-450.52 228.17,-456.52 228.17,-456.52 228.17,-474.04 228.17,-474.04 228.17,-480.04 222.17,-486.04 216.17,-486.04"/>
+<text xml:space="preserve" text-anchor="middle" x="149.94" y="-469.03" font-family="Liberation Sans" font-size="12.50">Embed the query on the</text>
+<text xml:space="preserve" text-anchor="middle" x="149.94" y="-454.03" font-family="Liberation Sans" font-size="12.50">device (384 values)</text>
+</g>
+<g id="edge3" class="edge">
+<title>m&#45;&gt;e</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M208.18,-535.32C197.6,-522.78 184.69,-507.48 173.72,-494.47"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="176.31,-492.66 168.1,-487.81 171.5,-496.72 176.31,-492.66"/>
+<text xml:space="preserve" text-anchor="middle" x="197.99" y="-504.34" font-family="Liberation Sans" font-size="11.00">yes</text>
+</g>
+<g id="node8" class="node">
+<title>k</title>
+<path fill="#eaf1f8" stroke="#1f4e78" d="M374.31,-234.44C374.31,-234.44 201.57,-234.44 201.57,-234.44 195.57,-234.44 189.57,-228.44 189.57,-222.44 189.57,-222.44 189.57,-204.92 189.57,-204.92 189.57,-198.92 195.57,-192.92 201.57,-192.92 201.57,-192.92 374.31,-192.92 374.31,-192.92 380.31,-192.92 386.31,-198.92 386.31,-204.92 386.31,-204.92 386.31,-222.44 386.31,-222.44 386.31,-228.44 380.31,-234.44 374.31,-234.44"/>
+<text xml:space="preserve" text-anchor="middle" x="287.94" y="-217.43" font-family="Liberation Sans" font-size="12.50">Keyword search over titles,</text>
+<text xml:space="preserve" text-anchor="middle" x="287.94" y="-202.43" font-family="Liberation Sans" font-size="12.50">summaries and text; add notice</text>
+</g>
+<g id="edge4" class="edge">
+<title>m&#45;&gt;k</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M256.96,-537.64C275.32,-520.37 295.94,-494.67 295.94,-466.28 295.94,-466.28 295.94,-466.28 295.94,-308.32 295.94,-287.34 293.92,-263.81 291.91,-245.59"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="295.04,-245.26 290.87,-236.69 288.78,-245.99 295.04,-245.26"/>
+<text xml:space="preserve" text-anchor="middle" x="302.05" y="-389.46" font-family="Liberation Sans" font-size="11.00">no</text>
+</g>
+<g id="node6" class="node">
+<title>c</title>
+<path fill="#eaf1f8" stroke="#1f4e78" d="M211.87,-413.52C211.87,-413.52 12,-413.52 12,-413.52 6,-413.52 0,-407.52 0,-401.52 0,-401.52 0,-384 0,-384 0,-378 6,-372 12,-372 12,-372 211.87,-372 211.87,-372 217.87,-372 223.87,-378 223.87,-384 223.87,-384 223.87,-401.52 223.87,-401.52 223.87,-407.52 217.87,-413.52 211.87,-413.52"/>
+<text xml:space="preserve" text-anchor="middle" x="111.94" y="-396.51" font-family="Liberation Sans" font-size="12.50">Cosine similarity with every</text>
+<text xml:space="preserve" text-anchor="middle" x="111.94" y="-381.51" font-family="Liberation Sans" font-size="12.50">bundled embedding; sort; take top K</text>
+</g>
+<g id="edge5" class="edge">
+<title>e&#45;&gt;c</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M139.15,-444.26C135.59,-437.65 131.55,-430.16 127.7,-423.01"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="130.59,-421.75 123.55,-415.32 125.05,-424.73 130.59,-421.75"/>
+</g>
+<g id="node7" class="node">
+<title>t</title>
+<polygon fill="#fff4cc" stroke="#b08900" points="136.94,-341 60.05,-309.32 136.94,-277.64 213.82,-309.32 136.94,-341"/>
+<text xml:space="preserve" text-anchor="middle" x="136.94" y="-312.92" font-family="Liberation Sans" font-size="12.00">Best similarity</text>
+<text xml:space="preserve" text-anchor="middle" x="136.94" y="-298.52" font-family="Liberation Sans" font-size="12.00">&gt;= 0.30?</text>
+</g>
+<g id="edge6" class="edge">
+<title>c&#45;&gt;t</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M118.11,-371.63C120.29,-364.55 122.8,-356.36 125.28,-348.3"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="128.26,-349.31 127.89,-339.78 122.24,-347.46 128.26,-349.31"/>
+</g>
+<g id="edge8" class="edge">
+<title>t&#45;&gt;k</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M167.13,-289.6C189.8,-275.54 221.11,-256.12 246.17,-240.58"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="247.78,-243.29 253.77,-235.87 244.46,-237.93 247.78,-243.29"/>
+<text xml:space="preserve" text-anchor="middle" x="236.52" y="-252.74" font-family="Liberation Sans" font-size="11.00">no</text>
+</g>
+<g id="node9" class="node">
+<title>r</title>
+<path fill="#eaf1f8" stroke="#1f4e78" d="M225.89,-161.92C225.89,-161.92 89.98,-161.92 89.98,-161.92 83.98,-161.92 77.98,-155.92 77.98,-149.92 77.98,-149.92 77.98,-132.4 77.98,-132.4 77.98,-126.4 83.98,-120.4 89.98,-120.4 89.98,-120.4 225.89,-120.4 225.89,-120.4 231.89,-120.4 237.89,-126.4 237.89,-132.4 237.89,-132.4 237.89,-149.92 237.89,-149.92 237.89,-155.92 231.89,-161.92 225.89,-161.92"/>
+<text xml:space="preserve" text-anchor="middle" x="157.94" y="-144.91" font-family="Liberation Sans" font-size="12.50">Show ranked cards</text>
+<text xml:space="preserve" text-anchor="middle" x="157.94" y="-129.91" font-family="Liberation Sans" font-size="12.50">with relevance indicators</text>
+</g>
+<g id="edge7" class="edge">
+<title>t&#45;&gt;r</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M140.64,-279C144.4,-249.26 150.19,-203.41 154.02,-173.1"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="157.14,-173.59 155.14,-164.26 150.89,-172.8 157.14,-173.59"/>
+<text xml:space="preserve" text-anchor="middle" x="160.01" y="-210.38" font-family="Liberation Sans" font-size="11.00">yes</text>
+</g>
+<g id="edge9" class="edge">
+<title>k&#45;&gt;r</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M250.68,-192.47C236.27,-184.65 219.61,-175.62 204.43,-167.38"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="206.34,-164.83 196.92,-163.31 203.33,-170.37 206.34,-164.83"/>
+</g>
+<g id="node10" class="node">
+<title>o</title>
+<path fill="#eaf1f8" stroke="#1f4e78" d="M231.45,-89.4C231.45,-89.4 84.42,-89.4 84.42,-89.4 78.42,-89.4 72.42,-83.4 72.42,-77.4 72.42,-77.4 72.42,-65.4 72.42,-65.4 72.42,-59.4 78.42,-53.4 84.42,-53.4 84.42,-53.4 231.45,-53.4 231.45,-53.4 237.45,-53.4 243.45,-59.4 243.45,-65.4 243.45,-65.4 243.45,-77.4 243.45,-77.4 243.45,-83.4 237.45,-89.4 231.45,-89.4"/>
+<text xml:space="preserve" text-anchor="middle" x="157.94" y="-67.65" font-family="Liberation Sans" font-size="12.50">Open or bookmark a result</text>
+</g>
+<g id="edge10" class="edge">
+<title>r&#45;&gt;o</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M157.94,-120.2C157.94,-113.99 157.94,-107.04 157.94,-100.4"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="161.09,-100.66 157.94,-91.66 154.79,-100.66 161.09,-100.66"/>
+</g>
+<g id="edge11" class="edge">
+<title>o&#45;&gt;end</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M157.94,-52.94C157.94,-46.83 157.94,-39.9 157.94,-33.51"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="161.09,-33.85 157.94,-24.85 154.79,-33.85 161.09,-33.85"/>
+</g>
+</g>
+</svg>

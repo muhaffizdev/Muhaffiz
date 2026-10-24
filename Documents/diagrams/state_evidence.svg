@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="379px" height="1085px"
+ viewBox="0.00 0.00 284.00 814.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(18 795.6)">
+<title>ev</title>
+<polygon fill="white" stroke="none" points="-18,18 -18,-795.6 266.15,-795.6 266.15,18 -18,18"/>
+<g id="node1" class="node">
+<title>start</title>
+<ellipse fill="#1f3864" stroke="#1f3864" cx="83.66" cy="-770.4" rx="7.2" ry="7.2"/>
+</g>
+<g id="node3" class="node">
+<title>Not</title>
+<path fill="#eaf1f8" stroke="none" d="M20.88,-648.2C20.88,-648.2 146.43,-648.2 146.43,-648.2 152.43,-648.2 158.43,-654.2 158.43,-660.2 158.43,-660.2 158.43,-700.2 158.43,-700.2 158.43,-706.2 152.43,-712.2 146.43,-712.2 146.43,-712.2 20.88,-712.2 20.88,-712.2 14.88,-712.2 8.88,-706.2 8.88,-700.2 8.88,-700.2 8.88,-660.2 8.88,-660.2 8.88,-654.2 14.88,-648.2 20.88,-648.2"/>
+<polygon fill="#1f4e78" stroke="#1f4e78" points="8.88,-685.6 8.88,-685.6 158.43,-685.6 158.43,-685.6 8.88,-685.6"/>
+<path fill="none" stroke="#1f4e78" d="M20.88,-648.2C20.88,-648.2 146.43,-648.2 146.43,-648.2 152.43,-648.2 158.43,-654.2 158.43,-660.2 158.43,-660.2 158.43,-700.2 158.43,-700.2 158.43,-706.2 152.43,-712.2 146.43,-712.2 146.43,-712.2 20.88,-712.2 20.88,-712.2 14.88,-712.2 8.88,-706.2 8.88,-700.2 8.88,-700.2 8.88,-660.2 8.88,-660.2 8.88,-654.2 14.88,-648.2 20.88,-648.2"/>
+<text xml:space="preserve" text-anchor="start" x="41.04" y="-695.5" font-family="Liberation Sans" font-weight="bold" font-size="13.00">Not recording</text>
+<text xml:space="preserve" text-anchor="start" x="14.88" y="-669.6" font-family="Liberation Sans" font-size="11.00">do / if permission is missing:</text>
+<text xml:space="preserve" text-anchor="start" x="14.88" y="-656.4" font-family="Liberation Sans" font-size="11.00"> &#160;&#160;&#160;SOS continues, log entry</text>
+</g>
+<g id="edge1" class="edge">
+<title>start&#45;&gt;Not</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M83.66,-762.77C83.66,-754.05 83.66,-737.99 83.66,-722.41"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="86.81,-722.77 83.66,-713.77 80.51,-722.77 86.81,-722.77"/>
+</g>
+<g id="node2" class="node">
+<title>end</title>
+<ellipse fill="#1f3864" stroke="#1f3864" cx="83.66" cy="-11.2" rx="7.2" ry="7.2"/>
+<ellipse fill="none" stroke="#1f3864" cx="83.66" cy="-11.2" rx="11.2" ry="11.2"/>
+</g>
+<g id="node4" class="node">
+<title>Rec</title>
+<path fill="#eaf1f8" stroke="none" d="M12,-494.6C12,-494.6 155.31,-494.6 155.31,-494.6 161.31,-494.6 167.31,-500.6 167.31,-506.6 167.31,-506.6 167.31,-559.8 167.31,-559.8 167.31,-565.8 161.31,-571.8 155.31,-571.8 155.31,-571.8 12,-571.8 12,-571.8 6,-571.8 0,-565.8 0,-559.8 0,-559.8 0,-506.6 0,-506.6 0,-500.6 6,-494.6 12,-494.6"/>
+<polygon fill="#1f4e78" stroke="#1f4e78" points="0,-545.2 0,-545.2 167.31,-545.2 167.31,-545.2 0,-545.2"/>
+<path fill="none" stroke="#1f4e78" d="M12,-494.6C12,-494.6 155.31,-494.6 155.31,-494.6 161.31,-494.6 167.31,-500.6 167.31,-506.6 167.31,-506.6 167.31,-559.8 167.31,-559.8 167.31,-565.8 161.31,-571.8 155.31,-571.8 155.31,-571.8 12,-571.8 12,-571.8 6,-571.8 0,-565.8 0,-559.8 0,-559.8 0,-506.6 0,-506.6 0,-500.6 6,-494.6 12,-494.6"/>
+<text xml:space="preserve" text-anchor="start" x="51.51" y="-555.1" font-family="Liberation Sans" font-weight="bold" font-size="13.00">Recording</text>
+<text xml:space="preserve" text-anchor="start" x="6" y="-529.2" font-family="Liberation Sans" font-size="11.00">entry / open microphone; create</text>
+<text xml:space="preserve" text-anchor="start" x="6" y="-516" font-family="Liberation Sans" font-size="11.00"> &#160;&#160;&#160;encrypted stream</text>
+<text xml:space="preserve" text-anchor="start" x="6" y="-502.8" font-family="Liberation Sans" font-size="11.00">do / write encrypted audio</text>
+</g>
+<g id="edge2" class="edge">
+<title>Not&#45;&gt;Rec</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M83.66,-648.45C83.66,-629.25 83.66,-604.12 83.66,-582.32"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="86.81,-582.57 83.66,-573.57 80.51,-582.57 86.81,-582.57"/>
+<text xml:space="preserve" text-anchor="middle" x="133.49" y="-613.3" font-family="Liberation Sans" font-size="11.00">SOS starts</text>
+<text xml:space="preserve" text-anchor="middle" x="133.49" y="-600.1" font-family="Liberation Sans" font-size="11.00">[permission granted]</text>
+</g>
+<g id="node5" class="node">
+<title>Stp</title>
+<path fill="#eaf1f8" stroke="none" d="M23.32,-341C23.32,-341 143.99,-341 143.99,-341 149.99,-341 155.99,-347 155.99,-353 155.99,-353 155.99,-406.2 155.99,-406.2 155.99,-412.2 149.99,-418.2 143.99,-418.2 143.99,-418.2 23.32,-418.2 23.32,-418.2 17.32,-418.2 11.32,-412.2 11.32,-406.2 11.32,-406.2 11.32,-353 11.32,-353 11.32,-347 17.32,-341 23.32,-341"/>
+<polygon fill="#1f4e78" stroke="#1f4e78" points="11.32,-391.6 11.32,-391.6 155.99,-391.6 155.99,-391.6 11.32,-391.6"/>
+<path fill="none" stroke="#1f4e78" d="M23.32,-341C23.32,-341 143.99,-341 143.99,-341 149.99,-341 155.99,-347 155.99,-353 155.99,-353 155.99,-406.2 155.99,-406.2 155.99,-412.2 149.99,-418.2 143.99,-418.2 143.99,-418.2 23.32,-418.2 23.32,-418.2 17.32,-418.2 11.32,-412.2 11.32,-406.2 11.32,-406.2 11.32,-353 11.32,-353 11.32,-347 17.32,-341 23.32,-341"/>
+<text xml:space="preserve" text-anchor="start" x="57.66" y="-401.5" font-family="Liberation Sans" font-weight="bold" font-size="13.00">Stopped</text>
+<text xml:space="preserve" text-anchor="start" x="17.32" y="-375.6" font-family="Liberation Sans" font-size="11.00">entry / close stream; save</text>
+<text xml:space="preserve" text-anchor="start" x="17.32" y="-362.4" font-family="Liberation Sans" font-size="11.00"> &#160;&#160;&#160;metadata (time, location,</text>
+<text xml:space="preserve" text-anchor="start" x="17.32" y="-349.2" font-family="Liberation Sans" font-size="11.00"> &#160;&#160;&#160;trigger)</text>
+</g>
+<g id="edge3" class="edge">
+<title>Rec&#45;&gt;Stp</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M83.66,-494.73C83.66,-474.86 83.66,-450.24 83.66,-428.95"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="86.81,-429.14 83.66,-420.14 80.51,-429.14 86.81,-429.14"/>
+<text xml:space="preserve" text-anchor="middle" x="142.35" y="-459.7" font-family="Liberation Sans" font-size="11.00">user stops, SOS closes,</text>
+<text xml:space="preserve" text-anchor="middle" x="142.35" y="-446.5" font-family="Liberation Sans" font-size="11.00">or storage is full</text>
+</g>
+<g id="node6" class="node">
+<title>Sto</title>
+<path fill="#eaf1f8" stroke="none" d="M20.87,-187.4C20.87,-187.4 146.44,-187.4 146.44,-187.4 152.44,-187.4 158.44,-193.4 158.44,-199.4 158.44,-199.4 158.44,-265.8 158.44,-265.8 158.44,-271.8 152.44,-277.8 146.44,-277.8 146.44,-277.8 20.87,-277.8 20.87,-277.8 14.87,-277.8 8.87,-271.8 8.87,-265.8 8.87,-265.8 8.87,-199.4 8.87,-199.4 8.87,-193.4 14.87,-187.4 20.87,-187.4"/>
+<polygon fill="#1f4e78" stroke="#1f4e78" points="8.87,-251.2 8.87,-251.2 158.44,-251.2 158.44,-251.2 8.87,-251.2"/>
+<path fill="none" stroke="#1f4e78" d="M20.87,-187.4C20.87,-187.4 146.44,-187.4 146.44,-187.4 152.44,-187.4 158.44,-193.4 158.44,-199.4 158.44,-199.4 158.44,-265.8 158.44,-265.8 158.44,-271.8 152.44,-277.8 146.44,-277.8 146.44,-277.8 20.87,-277.8 20.87,-277.8 14.87,-277.8 8.87,-271.8 8.87,-265.8 8.87,-265.8 8.87,-199.4 8.87,-199.4 8.87,-193.4 14.87,-187.4 20.87,-187.4"/>
+<text xml:space="preserve" text-anchor="start" x="63.07" y="-261.1" font-family="Liberation Sans" font-weight="bold" font-size="13.00">Stored</text>
+<text xml:space="preserve" text-anchor="start" x="14.87" y="-235.2" font-family="Liberation Sans" font-size="11.00">entry / listed in the evidence</text>
+<text xml:space="preserve" text-anchor="start" x="14.87" y="-222" font-family="Liberation Sans" font-size="11.00"> &#160;&#160;&#160;list</text>
+<text xml:space="preserve" text-anchor="start" x="14.87" y="-208.8" font-family="Liberation Sans" font-size="11.00">do / retention timer; export a</text>
+<text xml:space="preserve" text-anchor="start" x="14.87" y="-195.6" font-family="Liberation Sans" font-size="11.00"> &#160;&#160;&#160;copy on request</text>
+</g>
+<g id="edge4" class="edge">
+<title>Stp&#45;&gt;Sto</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M83.66,-341.26C83.66,-325.21 83.66,-306.12 83.66,-288.51"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="86.81,-288.74 83.66,-279.74 80.51,-288.74 86.81,-288.74"/>
+<text xml:space="preserve" text-anchor="middle" x="129.52" y="-306.1" font-family="Liberation Sans" font-size="11.00">encryption finished</text>
+</g>
+<g id="node7" class="node">
+<title>Del</title>
+<path fill="#eaf1f8" stroke="none" d="M25.15,-73.4C25.15,-73.4 142.16,-73.4 142.16,-73.4 148.16,-73.4 154.16,-79.4 154.16,-85.4 154.16,-85.4 154.16,-112.2 154.16,-112.2 154.16,-118.2 148.16,-124.2 142.16,-124.2 142.16,-124.2 25.15,-124.2 25.15,-124.2 19.15,-124.2 13.15,-118.2 13.15,-112.2 13.15,-112.2 13.15,-85.4 13.15,-85.4 13.15,-79.4 19.15,-73.4 25.15,-73.4"/>
+<polygon fill="#1f4e78" stroke="#1f4e78" points="13.15,-97.6 13.15,-97.6 154.16,-97.6 154.16,-97.6 13.15,-97.6"/>
+<path fill="none" stroke="#1f4e78" d="M25.15,-73.4C25.15,-73.4 142.16,-73.4 142.16,-73.4 148.16,-73.4 154.16,-79.4 154.16,-85.4 154.16,-85.4 154.16,-112.2 154.16,-112.2 154.16,-118.2 148.16,-124.2 142.16,-124.2 142.16,-124.2 25.15,-124.2 25.15,-124.2 19.15,-124.2 13.15,-118.2 13.15,-112.2 13.15,-112.2 13.15,-85.4 13.15,-85.4 13.15,-79.4 19.15,-73.4 25.15,-73.4"/>
+<text xml:space="preserve" text-anchor="start" x="60.18" y="-107.5" font-family="Liberation Sans" font-weight="bold" font-size="13.00">Deleted</text>
+<text xml:space="preserve" text-anchor="start" x="19.15" y="-81.6" font-family="Liberation Sans" font-size="11.00">entry / remove file and key</text>
+</g>
+<g id="edge5" class="edge">
+<title>Sto&#45;&gt;Del</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M83.66,-187.71C83.66,-170.43 83.66,-150.87 83.66,-134.6"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="86.81,-134.89 83.66,-125.89 80.51,-134.89 86.81,-134.89"/>
+<text xml:space="preserve" text-anchor="middle" x="165.9" y="-152.5" font-family="Liberation Sans" font-size="11.00">user deletes, or retention reached</text>
+</g>
+<g id="edge6" class="edge">
+<title>Del&#45;&gt;end</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M83.66,-73.5C83.66,-60.9 83.66,-45.64 83.66,-33.5"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="86.81,-33.58 83.66,-24.58 80.51,-33.58 86.81,-33.58"/>
+</g>
+</g>
+</svg>

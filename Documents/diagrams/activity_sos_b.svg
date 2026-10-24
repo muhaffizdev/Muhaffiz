@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="625px" height="883px"
+ viewBox="0.00 0.00 469.00 662.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(18 644.16)">
+<title>ad1b</title>
+<polygon fill="white" stroke="none" points="-18,18 -18,-644.16 451.24,-644.16 451.24,18 -18,18"/>
+<g id="node1" class="node">
+<title>start</title>
+<ellipse fill="#1f3864" stroke="#1f3864" cx="100.9" cy="-618.96" rx="7.2" ry="7.2"/>
+</g>
+<g id="node3" class="node">
+<title>w</title>
+<path fill="#eaf1f8" stroke="#1f4e78" d="M173.37,-574.76C173.37,-574.76 28.42,-574.76 28.42,-574.76 22.42,-574.76 16.42,-568.76 16.42,-562.76 16.42,-562.76 16.42,-545.24 16.42,-545.24 16.42,-539.24 22.42,-533.24 28.42,-533.24 28.42,-533.24 173.37,-533.24 173.37,-533.24 179.37,-533.24 185.37,-539.24 185.37,-545.24 185.37,-545.24 185.37,-562.76 185.37,-562.76 185.37,-568.76 179.37,-574.76 173.37,-574.76"/>
+<text xml:space="preserve" text-anchor="middle" x="100.9" y="-557.75" font-family="Liberation Sans" font-size="12.50">SOS dispatched; 3&#45;minute</text>
+<text xml:space="preserve" text-anchor="middle" x="100.9" y="-542.75" font-family="Liberation Sans" font-size="12.50">timer running</text>
+</g>
+<g id="edge1" class="edge">
+<title>start&#45;&gt;w</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M100.9,-611.69C100.9,-605.55 100.9,-595.7 100.9,-585.92"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="104.05,-586.08 100.9,-577.08 97.75,-586.08 104.05,-586.08"/>
+</g>
+<g id="node2" class="node">
+<title>end</title>
+<ellipse fill="#1f3864" stroke="#1f3864" cx="199.9" cy="-11.2" rx="7.2" ry="7.2"/>
+<ellipse fill="none" stroke="#1f3864" cx="199.9" cy="-11.2" rx="11.2" ry="11.2"/>
+</g>
+<g id="node4" class="node">
+<title>ack</title>
+<polygon fill="#fff4cc" stroke="#b08900" points="100.9,-496.24 19.97,-464.56 100.9,-432.88 181.83,-464.56 100.9,-496.24"/>
+<text xml:space="preserve" text-anchor="middle" x="100.9" y="-468.16" font-family="Liberation Sans" font-size="12.00">Acknowledged</text>
+<text xml:space="preserve" text-anchor="middle" x="100.9" y="-453.76" font-family="Liberation Sans" font-size="12.00">in 3 min?</text>
+</g>
+<g id="edge2" class="edge">
+<title>w&#45;&gt;ack</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M100.9,-533.16C100.9,-525.49 100.9,-516.41 100.9,-507.44"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="104.05,-507.61 100.9,-498.61 97.75,-507.61 104.05,-507.61"/>
+</g>
+<g id="node5" class="node">
+<title>ok</title>
+<path fill="#eaf1f8" stroke="#1f4e78" d="M111.8,-324.16C111.8,-324.16 12,-324.16 12,-324.16 6,-324.16 0,-318.16 0,-312.16 0,-312.16 0,-294.64 0,-294.64 0,-288.64 6,-282.64 12,-282.64 12,-282.64 111.8,-282.64 111.8,-282.64 117.8,-282.64 123.8,-288.64 123.8,-294.64 123.8,-294.64 123.8,-312.16 123.8,-312.16 123.8,-318.16 117.8,-324.16 111.8,-324.16"/>
+<text xml:space="preserve" text-anchor="middle" x="61.9" y="-307.15" font-family="Liberation Sans" font-size="12.50">Stop timer; show</text>
+<text xml:space="preserve" text-anchor="middle" x="61.9" y="-292.15" font-family="Liberation Sans" font-size="12.50">acknowledgement</text>
+</g>
+<g id="edge3" class="edge">
+<title>ack&#45;&gt;ok</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M93.93,-435.11C87.01,-406.88 76.45,-363.77 69.36,-334.87"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="72.5,-334.45 67.3,-326.45 66.38,-335.94 72.5,-334.45"/>
+<text xml:space="preserve" text-anchor="middle" x="97.31" y="-404.98" font-family="Liberation Sans" font-size="11.00">yes</text>
+</g>
+<g id="node6" class="node">
+<title>warn</title>
+<path fill="#eaf1f8" stroke="#1f4e78" d="M250.27,-383.68C250.27,-383.68 143.53,-383.68 143.53,-383.68 137.53,-383.68 131.53,-377.68 131.53,-371.68 131.53,-371.68 131.53,-354.16 131.53,-354.16 131.53,-348.16 137.53,-342.16 143.53,-342.16 143.53,-342.16 250.27,-342.16 250.27,-342.16 256.27,-342.16 262.27,-348.16 262.27,-354.16 262.27,-354.16 262.27,-371.68 262.27,-371.68 262.27,-377.68 256.27,-383.68 250.27,-383.68"/>
+<text xml:space="preserve" text-anchor="middle" x="196.9" y="-366.67" font-family="Liberation Sans" font-size="12.50">Show 30 s warning</text>
+<text xml:space="preserve" text-anchor="middle" x="196.9" y="-351.67" font-family="Liberation Sans" font-size="12.50">with one&#45;tap cancel</text>
+</g>
+<g id="edge4" class="edge">
+<title>ack&#45;&gt;warn</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M122.68,-440.95C136.72,-426.38 155.07,-407.33 170.02,-391.82"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="172.14,-394.16 176.12,-385.49 167.6,-389.79 172.14,-394.16"/>
+<text xml:space="preserve" text-anchor="middle" x="166.44" y="-404.98" font-family="Liberation Sans" font-size="11.00">no</text>
+</g>
+<g id="node10" class="node">
+<title>close</title>
+<path fill="#eaf1f8" stroke="#1f4e78" d="M268.55,-100.92C268.55,-100.92 131.24,-100.92 131.24,-100.92 125.24,-100.92 119.24,-94.92 119.24,-88.92 119.24,-88.92 119.24,-71.4 119.24,-71.4 119.24,-65.4 125.24,-59.4 131.24,-59.4 131.24,-59.4 268.55,-59.4 268.55,-59.4 274.55,-59.4 280.55,-65.4 280.55,-71.4 280.55,-71.4 280.55,-88.92 280.55,-88.92 280.55,-94.92 274.55,-100.92 268.55,-100.92"/>
+<text xml:space="preserve" text-anchor="middle" x="199.9" y="-83.91" font-family="Liberation Sans" font-size="12.50">User ends the SOS:</text>
+<text xml:space="preserve" text-anchor="middle" x="199.9" y="-68.91" font-family="Liberation Sans" font-size="12.50">stop alarm and recording</text>
+</g>
+<g id="edge8" class="edge">
+<title>ok&#45;&gt;close</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M61.06,-282.28C60.71,-248.96 64.45,-181.64 96.9,-137.92 106.53,-124.94 120.05,-114.56 134.14,-106.41"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="135.3,-109.37 141.71,-102.32 132.3,-103.83 135.3,-109.37"/>
+</g>
+<g id="node7" class="node">
+<title>can2</title>
+<polygon fill="#fff4cc" stroke="#b08900" points="199.9,-264.64 149.18,-246.64 199.9,-228.64 250.61,-246.64 199.9,-264.64"/>
+<text xml:space="preserve" text-anchor="middle" x="199.9" y="-243.04" font-family="Liberation Sans" font-size="12.00">Cancelled?</text>
+</g>
+<g id="edge5" class="edge">
+<title>warn&#45;&gt;can2</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M197.43,-341.75C197.91,-323.46 198.62,-296.29 199.16,-275.85"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="202.3,-276.04 199.39,-266.96 196.01,-275.87 202.3,-276.04"/>
+</g>
+<g id="node8" class="node">
+<title>escm</title>
+<path fill="#eaf1f8" stroke="#1f4e78" d="M272.73,-179.44C272.73,-179.44 127.07,-179.44 127.07,-179.44 121.07,-179.44 115.07,-173.44 115.07,-167.44 115.07,-167.44 115.07,-149.92 115.07,-149.92 115.07,-143.92 121.07,-137.92 127.07,-137.92 127.07,-137.92 272.73,-137.92 272.73,-137.92 278.73,-137.92 284.73,-143.92 284.73,-149.92 284.73,-149.92 284.73,-167.44 284.73,-167.44 284.73,-173.44 278.73,-179.44 272.73,-179.44"/>
+<text xml:space="preserve" text-anchor="middle" x="199.9" y="-162.43" font-family="Liberation Sans" font-size="12.50">Send escalation message;</text>
+<text xml:space="preserve" text-anchor="middle" x="199.9" y="-147.43" font-family="Liberation Sans" font-size="12.50">write escalation log</text>
+</g>
+<g id="edge6" class="edge">
+<title>can2&#45;&gt;escm</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M199.9,-228.24C199.9,-217.39 199.9,-203.12 199.9,-190.41"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="203.05,-190.73 199.9,-181.73 196.75,-190.73 203.05,-190.73"/>
+<text xml:space="preserve" text-anchor="middle" x="206.02" y="-200.74" font-family="Liberation Sans" font-size="11.00">no</text>
+</g>
+<g id="node9" class="node">
+<title>cancel</title>
+<path fill="#eaf1f8" stroke="#1f4e78" d="M421.24,-179.44C421.24,-179.44 332.56,-179.44 332.56,-179.44 326.56,-179.44 320.56,-173.44 320.56,-167.44 320.56,-167.44 320.56,-149.92 320.56,-149.92 320.56,-143.92 326.56,-137.92 332.56,-137.92 332.56,-137.92 421.24,-137.92 421.24,-137.92 427.24,-137.92 433.24,-143.92 433.24,-149.92 433.24,-149.92 433.24,-167.44 433.24,-167.44 433.24,-173.44 427.24,-179.44 421.24,-179.44"/>
+<text xml:space="preserve" text-anchor="middle" x="376.9" y="-162.43" font-family="Liberation Sans" font-size="12.50">No escalation;</text>
+<text xml:space="preserve" text-anchor="middle" x="376.9" y="-147.43" font-family="Liberation Sans" font-size="12.50">log as cancelled</text>
+</g>
+<g id="edge7" class="edge">
+<title>can2&#45;&gt;cancel</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M220.55,-235.61C246.14,-223.18 290.64,-201.57 325.64,-184.57"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="326.75,-187.54 333.47,-180.77 324,-181.87 326.75,-187.54"/>
+<text xml:space="preserve" text-anchor="middle" x="307.55" y="-200.74" font-family="Liberation Sans" font-size="11.00">yes</text>
+</g>
+<g id="edge9" class="edge">
+<title>escm&#45;&gt;close</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M199.9,-137.58C199.9,-129.82 199.9,-120.76 199.9,-112.21"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="203.05,-112.36 199.9,-103.36 196.75,-112.36 203.05,-112.36"/>
+</g>
+<g id="edge10" class="edge">
+<title>cancel&#45;&gt;close</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M330.39,-137.58C307.81,-127.81 280.47,-115.99 256.67,-105.7"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="258.02,-102.86 248.51,-102.18 255.52,-108.64 258.02,-102.86"/>
+</g>
+<g id="edge11" class="edge">
+<title>close&#45;&gt;end</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M199.9,-59.07C199.9,-50.99 199.9,-41.67 199.9,-33.48"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="203.05,-33.53 199.9,-24.53 196.75,-33.53 203.05,-33.53"/>
+</g>
+</g>
+</svg>

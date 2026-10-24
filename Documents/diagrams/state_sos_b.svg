@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="645px" height="757px"
+ viewBox="0.00 0.00 484.00 568.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(18 550.2)">
+<title>sosb</title>
+<polygon fill="white" stroke="none" points="-18,18 -18,-550.2 465.8,-550.2 465.8,18 -18,18"/>
+<g id="node1" class="node">
+<title>end</title>
+<ellipse fill="#1f3864" stroke="#1f3864" cx="219.53" cy="-11.2" rx="7.2" ry="7.2"/>
+<ellipse fill="none" stroke="#1f3864" cx="219.53" cy="-11.2" rx="11.2" ry="11.2"/>
+</g>
+<g id="node2" class="node">
+<title>Wait</title>
+<path fill="#f2f5f7" stroke="none" d="M60.8,-474.8C60.8,-474.8 176.26,-474.8 176.26,-474.8 182.26,-474.8 188.26,-480.8 188.26,-486.8 188.26,-486.8 188.26,-513.6 188.26,-513.6 188.26,-519.6 182.26,-525.6 176.26,-525.6 176.26,-525.6 60.8,-525.6 60.8,-525.6 54.8,-525.6 48.8,-519.6 48.8,-513.6 48.8,-513.6 48.8,-486.8 48.8,-486.8 48.8,-480.8 54.8,-474.8 60.8,-474.8"/>
+<polygon fill="#5b6b7a" stroke="#5b6b7a" points="48.8,-499 48.8,-499 188.26,-499 188.26,-499 48.8,-499"/>
+<path fill="none" stroke="#5b6b7a" d="M60.8,-474.8C60.8,-474.8 176.26,-474.8 176.26,-474.8 182.26,-474.8 188.26,-480.8 188.26,-486.8 188.26,-486.8 188.26,-513.6 188.26,-513.6 188.26,-519.6 182.26,-525.6 176.26,-525.6 176.26,-525.6 60.8,-525.6 60.8,-525.6 54.8,-525.6 48.8,-519.6 48.8,-513.6 48.8,-513.6 48.8,-486.8 48.8,-486.8 48.8,-480.8 54.8,-474.8 60.8,-474.8"/>
+<text xml:space="preserve" text-anchor="start" x="60.74" y="-508.9" font-family="Liberation Sans" font-weight="bold" font-size="13.00">Awaiting response</text>
+<text xml:space="preserve" text-anchor="start" x="54.8" y="-483" font-family="Liberation Sans" font-size="11.00">entry / start T_ack = 3 min</text>
+</g>
+<g id="node3" class="node">
+<title>Ack</title>
+<path fill="#e3f2ee" stroke="none" d="M333.68,-468.2C333.68,-468.2 435.38,-468.2 435.38,-468.2 441.38,-468.2 447.38,-474.2 447.38,-480.2 447.38,-480.2 447.38,-520.2 447.38,-520.2 447.38,-526.2 441.38,-532.2 435.38,-532.2 435.38,-532.2 333.68,-532.2 333.68,-532.2 327.68,-532.2 321.68,-526.2 321.68,-520.2 321.68,-520.2 321.68,-480.2 321.68,-480.2 321.68,-474.2 327.68,-468.2 333.68,-468.2"/>
+<polygon fill="#0f5c63" stroke="#0f5c63" points="321.68,-505.6 321.68,-505.6 447.38,-505.6 447.38,-505.6 321.68,-505.6"/>
+<path fill="none" stroke="#0f5c63" d="M333.68,-468.2C333.68,-468.2 435.38,-468.2 435.38,-468.2 441.38,-468.2 447.38,-474.2 447.38,-480.2 447.38,-480.2 447.38,-520.2 447.38,-520.2 447.38,-526.2 441.38,-532.2 435.38,-532.2 435.38,-532.2 333.68,-532.2 333.68,-532.2 327.68,-532.2 321.68,-526.2 321.68,-520.2 321.68,-520.2 321.68,-480.2 321.68,-480.2 321.68,-474.2 327.68,-468.2 333.68,-468.2"/>
+<text xml:space="preserve" text-anchor="start" x="338.66" y="-515.5" font-family="Liberation Sans" font-weight="bold" font-size="13.00">Acknowledged</text>
+<text xml:space="preserve" text-anchor="start" x="327.68" y="-489.6" font-family="Liberation Sans" font-size="11.00">entry / stop timer; show</text>
+<text xml:space="preserve" text-anchor="start" x="327.68" y="-476.4" font-family="Liberation Sans" font-size="11.00"> &#160;&#160;&#160;acknowledgement</text>
+</g>
+<g id="edge1" class="edge">
+<title>Wait&#45;&gt;Ack</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M188.07,-500.2C225.92,-500.2 272.73,-500.2 311.16,-500.2"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="310.79,-503.35 319.79,-500.2 310.79,-497.05 310.79,-503.35"/>
+<text xml:space="preserve" text-anchor="middle" x="254.97" y="-506.5" font-family="Liberation Sans" font-size="11.00">acknowledgement</text>
+</g>
+<g id="node4" class="node">
+<title>Warn</title>
+<path fill="#eaf1f8" stroke="none" d="M58.39,-327.8C58.39,-327.8 168.67,-327.8 168.67,-327.8 174.67,-327.8 180.67,-333.8 180.67,-339.8 180.67,-339.8 180.67,-379.8 180.67,-379.8 180.67,-385.8 174.67,-391.8 168.67,-391.8 168.67,-391.8 58.39,-391.8 58.39,-391.8 52.39,-391.8 46.39,-385.8 46.39,-379.8 46.39,-379.8 46.39,-339.8 46.39,-339.8 46.39,-333.8 52.39,-327.8 58.39,-327.8"/>
+<polygon fill="#1f4e78" stroke="#1f4e78" points="46.39,-365.2 46.39,-365.2 180.67,-365.2 180.67,-365.2 46.39,-365.2"/>
+<path fill="none" stroke="#1f4e78" d="M58.39,-327.8C58.39,-327.8 168.67,-327.8 168.67,-327.8 174.67,-327.8 180.67,-333.8 180.67,-339.8 180.67,-339.8 180.67,-379.8 180.67,-379.8 180.67,-385.8 174.67,-391.8 168.67,-391.8 168.67,-391.8 58.39,-391.8 58.39,-391.8 52.39,-391.8 46.39,-385.8 46.39,-379.8 46.39,-379.8 46.39,-339.8 46.39,-339.8 46.39,-333.8 52.39,-327.8 58.39,-327.8"/>
+<text xml:space="preserve" text-anchor="start" x="54.29" y="-375.1" font-family="Liberation Sans" font-weight="bold" font-size="13.00">Escalation warning</text>
+<text xml:space="preserve" text-anchor="start" x="52.39" y="-349.2" font-family="Liberation Sans" font-size="11.00">entry / vibrate 30 s; show</text>
+<text xml:space="preserve" text-anchor="start" x="52.39" y="-336" font-family="Liberation Sans" font-size="11.00"> &#160;&#160;&#160;cancel</text>
+</g>
+<g id="edge2" class="edge">
+<title>Wait&#45;&gt;Warn</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M113.22,-475.07C111.31,-465.24 109.4,-453.73 108.46,-443.2 107.28,-429.93 107.62,-415.43 108.54,-402.34"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="111.65,-402.93 109.26,-393.7 105.37,-402.41 111.65,-402.93"/>
+<text xml:space="preserve" text-anchor="middle" x="163.49" y="-433.3" font-family="Liberation Sans" font-size="11.00">T_ack expires</text>
+<text xml:space="preserve" text-anchor="middle" x="163.49" y="-420.1" font-family="Liberation Sans" font-size="11.00">[no acknowledgement]</text>
+</g>
+<g id="node6" class="node">
+<title>Closed</title>
+<path fill="#eaf1f8" stroke="none" d="M167.44,-73.4C167.44,-73.4 271.62,-73.4 271.62,-73.4 277.62,-73.4 283.62,-79.4 283.62,-85.4 283.62,-85.4 283.62,-125.4 283.62,-125.4 283.62,-131.4 277.62,-137.4 271.62,-137.4 271.62,-137.4 167.44,-137.4 167.44,-137.4 161.44,-137.4 155.44,-131.4 155.44,-125.4 155.44,-125.4 155.44,-85.4 155.44,-85.4 155.44,-79.4 161.44,-73.4 167.44,-73.4"/>
+<polygon fill="#1f4e78" stroke="#1f4e78" points="155.44,-110.8 155.44,-110.8 283.62,-110.8 283.62,-110.8 155.44,-110.8"/>
+<path fill="none" stroke="#1f4e78" d="M167.44,-73.4C167.44,-73.4 271.62,-73.4 271.62,-73.4 277.62,-73.4 283.62,-79.4 283.62,-85.4 283.62,-85.4 283.62,-125.4 283.62,-125.4 283.62,-131.4 277.62,-137.4 271.62,-137.4 271.62,-137.4 167.44,-137.4 167.44,-137.4 161.44,-137.4 155.44,-131.4 155.44,-125.4 155.44,-125.4 155.44,-85.4 155.44,-85.4 155.44,-79.4 161.44,-73.4 167.44,-73.4"/>
+<text xml:space="preserve" text-anchor="start" x="197.86" y="-120.7" font-family="Liberation Sans" font-weight="bold" font-size="13.00">Closed</text>
+<text xml:space="preserve" text-anchor="start" x="161.44" y="-94.8" font-family="Liberation Sans" font-size="11.00">entry / stop alarm and</text>
+<text xml:space="preserve" text-anchor="start" x="161.44" y="-81.6" font-family="Liberation Sans" font-size="11.00"> &#160;&#160;&#160;recording; finalise log</text>
+</g>
+<g id="edge7" class="edge">
+<title>Ack&#45;&gt;Closed</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M382.88,-468.39C378.7,-411.89 364.17,-289.36 314.53,-200.6 302.73,-179.5 284.83,-159.99 267.73,-144.27"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="270.23,-142.28 261.42,-138.63 266.03,-146.97 270.23,-142.28"/>
+<text xml:space="preserve" text-anchor="middle" x="401.33" y="-292.9" font-family="Liberation Sans" font-size="11.00">user ends the SOS</text>
+</g>
+<g id="edge3" class="edge">
+<title>Warn&#45;&gt;Ack</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M177.15,-391.66C192.79,-399.58 209.39,-408.28 224.53,-416.8 243.86,-427.67 247.41,-432.55 266.86,-443.2 281.27,-451.09 296.97,-459 312.07,-466.3"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="310.63,-469.11 320.11,-470.15 313.35,-463.42 310.63,-469.11"/>
+<text xml:space="preserve" text-anchor="middle" x="311.2" y="-426.7" font-family="Liberation Sans" font-size="11.00">acknowledgement</text>
+</g>
+<g id="node5" class="node">
+<title>Esc</title>
+<path fill="#eaf1f8" stroke="none" d="M12,-200.6C12,-200.6 121.06,-200.6 121.06,-200.6 127.06,-200.6 133.06,-206.6 133.06,-212.6 133.06,-212.6 133.06,-252.6 133.06,-252.6 133.06,-258.6 127.06,-264.6 121.06,-264.6 121.06,-264.6 12,-264.6 12,-264.6 6,-264.6 0,-258.6 0,-252.6 0,-252.6 0,-212.6 0,-212.6 0,-206.6 6,-200.6 12,-200.6"/>
+<polygon fill="#1f4e78" stroke="#1f4e78" points="0,-238 0,-238 133.06,-238 133.06,-238 0,-238"/>
+<path fill="none" stroke="#1f4e78" d="M12,-200.6C12,-200.6 121.06,-200.6 121.06,-200.6 127.06,-200.6 133.06,-206.6 133.06,-212.6 133.06,-212.6 133.06,-252.6 133.06,-252.6 133.06,-258.6 127.06,-264.6 121.06,-264.6 121.06,-264.6 12,-264.6 12,-264.6 6,-264.6 0,-258.6 0,-252.6 0,-252.6 0,-212.6 0,-212.6 0,-206.6 6,-200.6 12,-200.6"/>
+<text xml:space="preserve" text-anchor="start" x="36.18" y="-247.9" font-family="Liberation Sans" font-weight="bold" font-size="13.00">Escalated</text>
+<text xml:space="preserve" text-anchor="start" x="6" y="-222" font-family="Liberation Sans" font-size="11.00">entry / send message to</text>
+<text xml:space="preserve" text-anchor="start" x="6" y="-208.8" font-family="Liberation Sans" font-size="11.00"> &#160;&#160;&#160;authority numbers; log</text>
+</g>
+<g id="edge4" class="edge">
+<title>Warn&#45;&gt;Esc</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M101.91,-327.85C95.82,-311.63 88.29,-291.56 81.74,-274.11"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="84.82,-273.35 78.71,-266.03 78.92,-275.57 84.82,-273.35"/>
+<text xml:space="preserve" text-anchor="middle" x="122.63" y="-292.9" font-family="Liberation Sans" font-size="11.00">30 s elapsed</text>
+</g>
+<g id="edge5" class="edge">
+<title>Warn&#45;&gt;Closed</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M145.58,-327.85C152.24,-320.16 158.69,-311.59 163.53,-302.8 190.79,-253.3 205.81,-189.3 213.27,-148.05"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="216.36,-148.65 214.8,-139.25 210.15,-147.58 216.36,-148.65"/>
+<text xml:space="preserve" text-anchor="middle" x="253.09" y="-229.3" font-family="Liberation Sans" font-size="11.00">user cancels warning</text>
+</g>
+<g id="edge6" class="edge">
+<title>Esc&#45;&gt;Closed</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M59.13,-200.67C57.81,-187.79 58.81,-173.33 66.45,-162.4 84.5,-136.57 115.82,-122.61 145.45,-115.09"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="145.85,-118.23 153.91,-113.13 144.43,-112.09 145.85,-118.23"/>
+<text xml:space="preserve" text-anchor="middle" x="126.99" y="-165.7" font-family="Liberation Sans" font-size="11.00">message sent or queued</text>
+</g>
+<g id="edge8" class="edge">
+<title>Closed&#45;&gt;end</title>
+<path fill="none" stroke="#1f3864" stroke-width="1.3" d="M219.53,-73.44C219.53,-60.26 219.53,-45.22 219.53,-33.34"/>
+<polygon fill="#1f3864" stroke="#1f3864" stroke-width="1.3" points="222.68,-33.67 219.53,-24.67 216.38,-33.67 222.68,-33.67"/>
+</g>
+</g>
+</svg>
