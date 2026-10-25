@@ -5,7 +5,7 @@
 - Context read: Feature Document, Full Chat Record, old Scope Document, SRS template.
 
 ## Current stage
-SRS & SDS (Documents/SRS-Template.docx), filled chapter by chapter. Waiting for the user's detailed prompt. Do not start before then.
+SRS & SDS (Documents/Reference/SRS-Template.docx), filled chapter by chapter. Waiting for the user's detailed prompt. Do not start before then.
 
 ## SRS chapters
 - [~] Front matter (cover, empty revision/review tables, approval, TOC, List of Tables) - built, awaiting review
@@ -21,7 +21,7 @@ SRS & SDS (Documents/SRS-Template.docx), filled chapter by chapter. Waiting for 
 - Scope document corrections (not needed for SRS).
 - WBS/Gantt, mockups in scope document.
 
-## Build system (Documents/build/)
+## Build system (Documents/SRS/build/)
 - `python3 build.py` regenerates Muhaffiz-SRS-SDS.docx from SRS-Template.docx + chapter modules ch1.py ... ch6.py (chapters without a module stay as template placeholders). srslib.py holds table/heading/caption/TOC helpers. Set SRS_WORK and SRS_RENDER env vars to scratch dirs.
 - Writing a chapter = create chN.py with blocks(ctx) using H1/H2/P/BUL/NUM/TBL/FIG helpers; {sec:key}, {tbl:key}, {fig:key}, {cite:key} tokens become auto fields.
 - Validate with the docx skill's validate.py (needs a defusedxml shim).
@@ -53,7 +53,7 @@ SRS & SDS (Documents/SRS-Template.docx), filled chapter by chapter. Waiting for 
 
 ## Full document built (2026-10-22): Muhaffiz-SRS-SDS.docx (+ .pdf), 152 pages, validated.
 Ch4-6 decisions to confirm: alert page on alert.muhaffiz.live; admin API under muhaffiz.me/api/v1; three environments; test counts (24 UT, 29 FT, 32 BRT, 14 IT, NF per NFR); RTM status column empty; milestone Status = Scheduled; ADR names sherpa-onnx/YAMNet/MiniLM/Drift/Riverpod/MapLibre (unverified, in Appendix C); Document Status page is the only disclaimer.
-Rebuild: cd Documents/build && SRS_WORK=<tmp> SRS_RENDER=<tmp> python3 build.py
+Rebuild: cd Documents/SRS/build && SRS_WORK=<tmp> SRS_RENDER=<tmp> python3 build.py
 
 ## Diagram overhaul (2026-10-23)
 - All diagrams redrawn: custom portable SVG (no filters/markers/gradients; needed because Word/LibreOffice dropped the contents of the earlier SVGs) in build/diag.py, diag3.py, seq2.py, swim.py, figs_*.py; Graphviz-WASM (build/gv_*.py, dot_render.mjs, requires node_modules at scratchpad gv/) for class, state, activity, ER.

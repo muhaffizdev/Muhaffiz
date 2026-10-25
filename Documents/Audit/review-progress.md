@@ -1,17 +1,17 @@
 # Review Progress and Limitations
 
-**Audit of:** `Documents/Muhaffiz-SRS-SDS.pdf` (206 pages) and its source `Documents/Muhaffiz-SRS-SDS.docx`
+**Audit of:** `Documents/SRS/Muhaffiz-SRS-SDS.pdf` (206 pages) and its source `Documents/SRS/Muhaffiz-SRS-SDS.docx`
 **Date:** 23 October 2026 · **Status:** Audit complete. **The SRS was not modified.** Corrections are waiting for approval.
 
 ## Sources used, in the order of authority given in the brief
 
 | Rank | Source | File | Used for |
 |---|---|---|---|
-| 1 | University SRS template | `Documents/SRS-Template.docx`, converted to PDF (53 rendered pages, printed labels 1–49) and read in full | Required structure, tables and formatting rules |
-| 2 | Approved project brief | `Documents/Hifazat Feature Document.md` (19 modules; 7.17–7.19 "to be confirmed") and `Documents/Muhaffiz_FYP_Scope_Document-UnUpdated.docx` (proposal; 16 modules, objectives BO-1 to BO-6, evaluation plan) | Scope and confirmed features. **Limitation:** neither file is marked as the approved version. The scope document is labelled "UnUpdated", and `project-context.md` says it is out of date. Both were therefore used, and conflicts between them are reported (AUD-M17) |
-| 3 | SRS under audit | `Documents/Muhaffiz-SRS-SDS.pdf` and `.docx` | Everything audited |
-| Context | Decisions and history | `Documents/project-context.md`, `Documents/progress.md`, `Documents/SRS-Checklist.md`, `Documents/Hifazat Full Chat Record.md` | Identifying source conflicts (survey size, scope approval, interview count) and recomputing the survey figures. Not treated as authority for correctness |
-| Not audited | Older build | `Documents/Muhaffiz.pdf` (186 pages, 22 Oct 23:56) | Noted only (AUD-X05) |
+| 1 | University SRS template | `Documents/Reference/SRS-Template.docx`, converted to PDF (53 rendered pages, printed labels 1–49) and read in full | Required structure, tables and formatting rules |
+| 2 | Approved project brief | `Documents/Reference/Hifazat Feature Document.md` (19 modules; 7.17–7.19 "to be confirmed") and `Documents/Reference/Muhaffiz_FYP_Scope_Document-UnUpdated.docx` (proposal; 16 modules, objectives BO-1 to BO-6, evaluation plan) | Scope and confirmed features. **Limitation:** neither file is marked as the approved version. The scope document is labelled "UnUpdated", and `project-context.md` says it is out of date. Both were therefore used, and conflicts between them are reported (AUD-M17) |
+| 3 | SRS under audit | `Documents/SRS/Muhaffiz-SRS-SDS.pdf` and `.docx` | Everything audited |
+| Context | Decisions and history | `Documents/Notes/project-context.md`, `Documents/Notes/progress.md`, `Documents/Notes/SRS-Checklist.md`, `Documents/Reference/Hifazat Full Chat Record.md` | Identifying source conflicts (survey size, scope approval, interview count) and recomputing the survey figures. Not treated as authority for correctness |
+| Not audited | Older build | `Documents/Archive/Muhaffiz-SRS-SDS-old-186p.pdf` (186 pages, 22 Oct 23:56) | Noted only (AUD-X05) |
 
 ## Page numbering
 

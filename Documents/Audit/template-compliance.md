@@ -1,7 +1,7 @@
 # Template Compliance Checklist: Muhaffiz SRS & SDS
 
-**Template:** `Documents/SRS-Template.docx` (Air University SRS & SDS; its printed pages 1–49).
-**Audited document:** `Documents/Muhaffiz-SRS-SDS.pdf` (206 pages). Page references are **PDF p. (printed p.)**, where printed = PDF − 12 from PDF page 13 onwards.
+**Template:** `Documents/Reference/SRS-Template.docx` (Air University SRS & SDS; its printed pages 1–49).
+**Audited document:** `Documents/SRS/Muhaffiz-SRS-SDS.pdf` (206 pages). Page references are **PDF p. (printed p.)**, where printed = PDF − 12 from PDF page 13 onwards.
 
 **Status key:**
 - **C**: Compliant.

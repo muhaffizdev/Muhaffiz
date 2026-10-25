@@ -1,6 +1,6 @@
 # Audit Summary: Muhaffiz (Hifazat) SRS & SDS
 
-**Document:** `Documents/Muhaffiz-SRS-SDS.pdf`, Version 1.0, 206 pages (audited 23 October 2026)
+**Document:** `Documents/SRS/Muhaffiz-SRS-SDS.pdf`, Version 1.0, 206 pages (audited 23 October 2026)
 **Full findings:** `audit-report.md` (70 findings). **Template checklist:** `template-compliance.md`. **Coverage and limitations:** `review-progress.md`.
 **Page convention:** PDF page (printed page); printed = PDF − 12 from PDF page 13 onwards.
 
@@ -73,7 +73,7 @@ All 206 pages and all 68 figures were inspected, both as text and as rendered im
 - **Raw survey data beyond the 31 analysed responses**, and the open-ended survey answer cited as the source of MOD-21.
 - **External facts:** Android platform restrictions, whether Police 15, Rescue 1122 and 1099 accept SMS, current Firebase pricing, and Google Maps and OSM licence terms. No external research was requested.
 - **Supervisor or committee approval** of MOD-17 to MOD-21.
-- **The 207-page version** mentioned in the audit brief. The available PDF has 206 pages; the older `Documents/Muhaffiz.pdf` has 186.
+- **The 207-page version** mentioned in the audit brief. The available PDF has 206 pages; the older `Documents/Archive/Muhaffiz-SRS-SDS-old-186p.pdf` has 186.
 
 ## Confirmed defects, concerns and recommendations
 

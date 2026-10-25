@@ -2,11 +2,11 @@
 
 | Item | Value |
 |---|---|
-| Document audited | `Documents/Muhaffiz-SRS-SDS.pdf` (206 pages, generated 23 Oct 2026 01:12 from `Muhaffiz-SRS-SDS.docx`) |
+| Document audited | `Documents/SRS/Muhaffiz-SRS-SDS.pdf` (206 pages, generated 23 Oct 2026 01:12 from `Muhaffiz-SRS-SDS.docx`) |
 | Title on cover | *Muhaffiz: Offline-First Safety for Women and Children*, Version 1.0 |
-| Template | `Documents/SRS-Template.docx` (Air University SRS & SDS template) |
-| Project brief | `Documents/Hifazat Feature Document.md` (19 modules) and `Documents/Muhaffiz_FYP_Scope_Document-UnUpdated.docx` (proposal, 16 modules) |
-| Supporting context | `Documents/project-context.md`, `Documents/progress.md`, `Documents/Hifazat Full Chat Record.md` |
+| Template | `Documents/Reference/SRS-Template.docx` (Air University SRS & SDS template) |
+| Project brief | `Documents/Reference/Hifazat Feature Document.md` (19 modules) and `Documents/Reference/Muhaffiz_FYP_Scope_Document-UnUpdated.docx` (proposal, 16 modules) |
+| Supporting context | `Documents/Notes/project-context.md`, `Documents/Notes/progress.md`, `Documents/Reference/Hifazat Full Chat Record.md` |
 | Audit date | 23 October 2026 |
 | Status of original SRS | Not modified |
 
@@ -456,7 +456,7 @@
 | AUD-X02 | Captions are numbered sequentially ("Figure 1", "Table 1"), while the template's example uses chapter-based numbering ("Fig. 4.1", "Table 6.2"). The template's wording is "for example", so this is not a defect. |
 | AUD-X03 | Template Appendix D (Diagram Notation Reference) says "Include only notation relevant to diagrams used in the project. Insert the appropriate standard symbol". The SRS has no notation appendix. It is unclear whether this is a required deliverable or an example; confirm with the supervisor. |
 | AUD-X04 | There is duplication and page inflation. Table 99 repeats Table 145. Business rules restate FR text (for example BR-16 equals FR-07.03). About 40 diagram pages are half empty, and PDF pp.152 and 205 carry only a few lines. Tightening the layout could reduce the length noticeably without losing content. |
-| AUD-X05 | The PDF has 206 pages, not the 207 stated in the audit brief. `Documents/Muhaffiz.pdf` is an older 186-page build (22 Oct 23:56); make sure the correct file is submitted. |
+| AUD-X05 | The PDF has 206 pages, not the 207 stated in the audit brief. `Documents/Archive/Muhaffiz-SRS-SDS-old-186p.pdf` is an older 186-page build (22 Oct 23:56); make sure the correct file is submitted. |
 | AUD-X06 | The source for MOD-21 ("one survey respondent suggested … changing its icon and name") cannot be verified from the available materials: the open-ended survey answers are not in the chat record. |
 | AUD-X07 | **Strengths verified by this audit:** identifiers are unique and consistent, and an automated check found no references to undefined IDs. All 87 FRs use the full template attribute set with acceptance criteria. Survey percentages match the 31 analysed responses exactly. Cross-references are real fields (165 REF fields, 0 hand-typed references found) and captions use SEQ fields. Body text matches the template (Times New Roman 12 pt, justified, 1.5 spacing, 18 pt after, 1.27 cm first-line indent, 2.54 cm margins). Every chapter starts on a new page with an overview and a summary. Limitations are stated candidly (WhatsApp needs confirmation, the microphone indicator, coercion, the limits of escalation). No template placeholder or example text remains. The out-of-scope list correctly excludes direct integration with authorities. |
 

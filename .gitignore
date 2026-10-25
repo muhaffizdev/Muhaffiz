@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.pyc
+
+# LibreOffice / Word lock and temp files
+.~lock.*#
+~$*
+
+# Node (Graphviz-WASM renderer dependencies)
+node_modules/

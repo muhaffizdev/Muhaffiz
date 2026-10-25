@@ -3,8 +3,8 @@ sys.path.insert(0, os.path.dirname(__file__))
 from srslib import *
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-DOCS = os.path.dirname(HERE)
-TEMPLATE = os.path.join(DOCS, 'SRS-Template.docx')
+DOCS = os.path.dirname(HERE)   # Documents/SRS
+TEMPLATE = os.path.join(DOCS, '..', 'Reference', 'SRS-Template.docx')
 WORK = os.environ.get('SRS_WORK', '/tmp/srs_work')
 OUT = os.path.join(DOCS, 'Muhaffiz-SRS-SDS.docx')
 

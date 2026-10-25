@@ -47,5 +47,5 @@ Engineering contribution = system design + evaluation, not training new models.
 - Other architecture picks (delegated to Claude): Riverpod, Drift/SQLite, YAMNet via TFLite, MiniLM-class embeddings, Google Maps SDK, Android SmsManager via platform channel, Cloud Functions for email, AES-256 evidence with Android Keystore.
 
 ## SRS work rules
-- Template: Documents/SRS-Template.docx (SRS & SDS, 6 chapters + appendices). Filled chapter by chapter, only when the user gives a detailed prompt.
+- Template: Documents/Reference/SRS-Template.docx (SRS & SDS, 6 chapters + appendices). Filled chapter by chapter, only when the user gives a detailed prompt.
 - Template formatting: Times New Roman; H1 16 pt bold, H2 14 pt bold, body 12 pt justified, 1.5 line spacing, 18 pt after paragraphs, 1.27 cm first-line indent, 2.54 cm margins, page numbers in footer, built-in heading styles, auto captions (figure below, table above), IEEE citations, every chapter starts on a new page with a Chapter Overview and ends with a Chapter Summary.
